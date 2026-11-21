@@ -1,0 +1,113 @@
+{
+  "evidence_cutoff": "2026-11-01",
+  "final_session_id": "fdcaebe047df439fa60dd00f6e0586c4",
+  "final_live": {
+    "outputs": 103,
+    "posed": 84,
+    "dense_outputs": 79,
+    "dense_fraction_of_posed": 0.9404761904761905,
+    "first_pose_seconds": 3.952465799986385,
+    "first_dense_seconds": 4.432918500038795,
+    "final_map_points": 1671,
+    "timing": {
+      "capture_receipt_to_packet": {
+        "samples": 103,
+        "p50_ms": 309.8175000050105,
+        "p95_ms": 686.9519400177522,
+        "p99_ms": 732.9550139978529
+      },
+      "output_interval": {
+        "samples": 102,
+        "p50_ms": 252.4054499808699,
+        "p95_ms": 618.7008100212552,
+        "p99_ms": 648.2461150031304
+      },
+      "interval_jitter_abs_deviation_from_median": {
+        "samples": 102,
+        "p50_ms": 16.8940500007011,
+        "p95_ms": 366.2953600403852,
+        "p99_ms": 395.8406650222605
+      },
+      "deadline_ms": 500,
+      "deadline_misses": 13,
+      "skipped_capture_frames": 343,
+      "scope": "Software capture receipt to packet readiness. Excludes sensor buffering and network/browser display."
+    }
+  },
+  "candidate_selection": {
+    "dataset": "data\\sessions\\1fbb44b27fc94a4daf7afc48883dc708\\slam_input",
+    "trace": "data\\selection_policy_comparison\\snapshots.jsonl",
+    "source_frames": 448,
+    "snapshot_stride": 8,
+    "unique_model_predictions": 14,
+    "policies": {
+      "newest": {
+        "outputs": 57,
+        "posed_outputs": 43,
+        "dense_outputs": 1,
+        "first_dense": 17.1831438,
+        "cached_prediction_events": 5,
+        "max_cache": 3,
+        "max_dense": 1812
+      },
+      "all_cached": {
+        "outputs": 57,
+        "posed_outputs": 43,
+        "dense_outputs": 27,
+        "first_dense": 13.9522902,
+        "cached_prediction_events": 14,
+        "max_cache": 6,
+        "max_dense": 3207
+      }
+    },
+    "note": "Same frozen online SLAM replies and pixel-identical shared predictions. Saved-input SLAM and fixed snapshot decimation, not original live scheduling or a latency benchmark. Quality gates unchanged."
+  },
+  "window_diversity": {
+    "dataset": "data\\sessions\\a934304385684437bed057244f50eee1\\slam_input",
+    "trace": "data\\window_diversity_comparison\\snapshots.jsonl",
+    "source_frames": 451,
+    "snapshot_stride": 8,
+    "unique_model_predictions": 16,
+    "policies": {
+      "newest": {
+        "outputs": 58,
+        "posed_outputs": 40,
+        "dense_outputs": 29,
+        "first_dense": 10.7358548,
+        "cached_prediction_events": 16,
+        "max_cache": 7,
+        "max_dense": 6233,
+        "final_dense_points": 3443,
+        "final_window": [
+          3,
+          12,
+          13,
+          14
+        ]
+      },
+      "diverse": {
+        "outputs": 58,
+        "posed_outputs": 40,
+        "dense_outputs": 38,
+        "first_dense": 10.7358548,
+        "cached_prediction_events": 16,
+        "max_cache": 7,
+        "max_dense": 6233,
+        "final_dense_points": 3443,
+        "final_window": [
+          3,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    "compare_windows": true,
+    "note": "Same frozen online SLAM replies and pixel-identical shared predictions. Saved-input SLAM and fixed snapshot decimation, not original live scheduling or a latency benchmark. Quality gates unchanged."
+  },
+  "sources": {
+    "final_live": "docs/successful_live_session/diverse_window/measurements.json",
+    "candidate_selection": "docs/fusion_diagnostics/selection_policy_comparison/measurements.json",
+    "window_diversity": "docs/fusion_diagnostics/window_diversity_comparison/measurements.json"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+  "torch_threads": 4,
+  "model": "depth-anything/Depth-Anything-V2-Small-hf",
+  "device": "cpu",
+  "precision": "fp32",
+  "cases": {
+    "160": {
+      "input_size_wh": [
+        160,
+        120
+      ],
+      "invalid_heldout": 0,
+      "failed_fits": 3,
+      "processing": {
+        "samples": 30,
+        "p50_ms": 246.0150500119198,
+        "p95_ms": 484.503465014859,
+        "p99_ms": 593.9541330141948
+      },
+      "heldout_samples": 199,
+      "heldout_abs_rel_mean": 0.06694755490861701
+    },
+    "224": {
+      "input_size_wh": [
+        224,
+        168
+      ],
+      "invalid_heldout": 0,
+      "failed_fits": 2,
+      "processing": {
+        "samples": 30,
+        "p50_ms": 396.30784999462776,
+        "p95_ms": 736.9964649900792,
+        "p99_ms": 807.1173289685976
+      },
+      "heldout_samples": 295,
+      "heldout_abs_rel_mean": 0.08804702543476862
+    },
+    "320": {
+      "input_size_wh": [
+        320,
+        240
+      ],
+      "invalid_heldout": 0,
+      "failed_fits": 0,
+      "processing": {
+        "samples": 30,
+        "p50_ms": 698.8211999996565,
+        "p95_ms": 1348.7219249800537,
+        "p99_ms": 1643.4812209761005
+      },
+      "heldout_samples": 491,
+      "heldout_abs_rel_mean": 0.041160029761286084
+    }
+  },
+  "scope": "30 timing samples per size: 5 identical saved keyframes repeated 6 times, rotating variant order; one warmup per size excluded. Model predict timing excludes disk, explicit input resize, capture, network and browser.",
+  "quality_note": "Same per-view sparse train/test samples at each size, no thresholds tuned. SLAM agreement is not independent accuracy. Repeated images do not add independent quality samples. Small selected scene; not a generalization benchmark. Background load and power mode uncontrolled."
+}

@@ -1,0 +1,173 @@
+{
+  "keyframes": 8,
+  "summary_by_keyframe_gap": {
+    "1": {
+      "pairs": 7,
+      "median_shared_landmarks": 593.0,
+      "median_pair_angle_deg": 0.7557776873070852
+    },
+    "2": {
+      "pairs": 6,
+      "median_shared_landmarks": 555.5,
+      "median_pair_angle_deg": 1.275659456759712
+    },
+    "3": {
+      "pairs": 5,
+      "median_shared_landmarks": 509.0,
+      "median_pair_angle_deg": 1.4144125230033002
+    }
+  },
+  "pairs": {
+    "1": [
+      {
+        "first_timestamp": 0.7987069,
+        "second_timestamp": 3.9346252,
+        "shared_landmarks": 222,
+        "shared_fraction_of_smaller_view": 0.8844621513944223,
+        "median_ray_angle_deg": 0.7008843525636019,
+        "fraction_shared_points_below_one_degree": 0.9864864864864865
+      },
+      {
+        "first_timestamp": 3.9346252,
+        "second_timestamp": 8.1267304,
+        "shared_landmarks": 420,
+        "shared_fraction_of_smaller_view": 0.84,
+        "median_ray_angle_deg": 0.4094471605566934,
+        "fraction_shared_points_below_one_degree": 0.9976190476190476
+      },
+      {
+        "first_timestamp": 8.1267304,
+        "second_timestamp": 17.4702831,
+        "shared_landmarks": 564,
+        "shared_fraction_of_smaller_view": 0.771545827633379,
+        "median_ray_angle_deg": 0.7557776873070852,
+        "fraction_shared_points_below_one_degree": 0.99822695035461
+      },
+      {
+        "first_timestamp": 17.4702831,
+        "second_timestamp": 19.5344367,
+        "shared_landmarks": 619,
+        "shared_fraction_of_smaller_view": 0.835357624831309,
+        "median_ray_angle_deg": 0.9545618571707926,
+        "fraction_shared_points_below_one_degree": 0.8255250403877221
+      },
+      {
+        "first_timestamp": 19.5344367,
+        "second_timestamp": 26.7981473,
+        "shared_landmarks": 610,
+        "shared_fraction_of_smaller_view": 0.8232118758434548,
+        "median_ray_angle_deg": 2.2706519382169397,
+        "fraction_shared_points_below_one_degree": 0.0
+      },
+      {
+        "first_timestamp": 26.7981473,
+        "second_timestamp": 28.3985853,
+        "shared_landmarks": 593,
+        "shared_fraction_of_smaller_view": 0.7917222963951935,
+        "median_ray_angle_deg": 0.8826132819532849,
+        "fraction_shared_points_below_one_degree": 0.9021922428330523
+      },
+      {
+        "first_timestamp": 28.3985853,
+        "second_timestamp": 29.4058582,
+        "shared_landmarks": 605,
+        "shared_fraction_of_smaller_view": 0.8164642375168691,
+        "median_ray_angle_deg": 0.3008936105043016,
+        "fraction_shared_points_below_one_degree": 0.9983471074380166
+      }
+    ],
+    "2": [
+      {
+        "first_timestamp": 0.7987069,
+        "second_timestamp": 8.1267304,
+        "shared_landmarks": 202,
+        "shared_fraction_of_smaller_view": 0.8047808764940239,
+        "median_ray_angle_deg": 0.33010749971143427,
+        "fraction_shared_points_below_one_degree": 0.995049504950495
+      },
+      {
+        "first_timestamp": 3.9346252,
+        "second_timestamp": 17.4702831,
+        "shared_landmarks": 346,
+        "shared_fraction_of_smaller_view": 0.692,
+        "median_ray_angle_deg": 1.0968199495789048,
+        "fraction_shared_points_below_one_degree": 0.25722543352601157
+      },
+      {
+        "first_timestamp": 8.1267304,
+        "second_timestamp": 19.5344367,
+        "shared_landmarks": 522,
+        "shared_fraction_of_smaller_view": 0.7140902872777017,
+        "median_ray_angle_deg": 1.6083239487480134,
+        "fraction_shared_points_below_one_degree": 0.0
+      },
+      {
+        "first_timestamp": 17.4702831,
+        "second_timestamp": 26.7981473,
+        "shared_landmarks": 625,
+        "shared_fraction_of_smaller_view": 0.8223684210526315,
+        "median_ray_angle_deg": 2.0341337589477266,
+        "fraction_shared_points_below_one_degree": 0.0
+      },
+      {
+        "first_timestamp": 19.5344367,
+        "second_timestamp": 28.3985853,
+        "shared_landmarks": 592,
+        "shared_fraction_of_smaller_view": 0.7989203778677463,
+        "median_ray_angle_deg": 1.4127829461140329,
+        "fraction_shared_points_below_one_degree": 0.008445945945945946
+      },
+      {
+        "first_timestamp": 26.7981473,
+        "second_timestamp": 29.4058582,
+        "shared_landmarks": 589,
+        "shared_fraction_of_smaller_view": 0.7948717948717948,
+        "median_ray_angle_deg": 1.138535967405391,
+        "fraction_shared_points_below_one_degree": 0.2801358234295416
+      }
+    ],
+    "3": [
+      {
+        "first_timestamp": 0.7987069,
+        "second_timestamp": 17.4702831,
+        "shared_landmarks": 148,
+        "shared_fraction_of_smaller_view": 0.5896414342629482,
+        "median_ray_angle_deg": 0.29885444473406775,
+        "fraction_shared_points_below_one_degree": 1.0
+      },
+      {
+        "first_timestamp": 3.9346252,
+        "second_timestamp": 19.5344367,
+        "shared_landmarks": 316,
+        "shared_fraction_of_smaller_view": 0.632,
+        "median_ray_angle_deg": 1.7913341952451862,
+        "fraction_shared_points_below_one_degree": 0.0
+      },
+      {
+        "first_timestamp": 8.1267304,
+        "second_timestamp": 26.7981473,
+        "shared_landmarks": 509,
+        "shared_fraction_of_smaller_view": 0.6963064295485636,
+        "median_ray_angle_deg": 1.6158020087794236,
+        "fraction_shared_points_below_one_degree": 0.0
+      },
+      {
+        "first_timestamp": 17.4702831,
+        "second_timestamp": 28.3985853,
+        "shared_landmarks": 612,
+        "shared_fraction_of_smaller_view": 0.8170894526034713,
+        "median_ray_angle_deg": 1.4144125230033002,
+        "fraction_shared_points_below_one_degree": 0.013071895424836602
+      },
+      {
+        "first_timestamp": 19.5344367,
+        "second_timestamp": 29.4058582,
+        "shared_landmarks": 566,
+        "shared_fraction_of_smaller_view": 0.7638326585695007,
+        "median_ray_angle_deg": 1.1353211613906091,
+        "fraction_shared_points_below_one_degree": 0.2968197879858657
+      }
+    ]
+  },
+  "note": "Internal estimates from the final optimized map, not measured motion or RGB-area overlap. One degree is a diagnostic reference, not a safety/confidence threshold. No SLAM settings or fusion gates were changed."
+}

@@ -1,0 +1,312 @@
+{
+  "policy": {
+    "input_wh": [
+      224,
+      168
+    ],
+    "min_shared_landmarks": 70,
+    "min_pair_angle_degrees": 1,
+    "min_laplacian_variance_320x240": 50,
+    "other_view_depth_tolerance": 0.1,
+    "min_supporting_other_views": 1,
+    "voxel_size_arbitrary_units": 0.002
+  },
+  "cases": {
+    "successful": {
+      "session": "79c2df1975674ee6bfce9c3f2bad374f",
+      "retained_keyframes": 16,
+      "selected_keyframes_before_depth_acceptance": 13,
+      "depth_supported_views": 14,
+      "variants": {
+        "all": {
+          "selected_supported_views": 14,
+          "views_with_output_points": 14,
+          "candidate_points": 25398,
+          "points_before_voxelization": 25398,
+          "retained_candidate_fraction": 1.0,
+          "heldout_valid_before_cross_view": 986,
+          "heldout_abs_rel_mean_before_cross_view": 0.090302132471334,
+          "cross_view_checks": [],
+          "voxelized_points": 25349
+        },
+        "selected": {
+          "selected_supported_views": 12,
+          "views_with_output_points": 12,
+          "candidate_points": 22361,
+          "points_before_voxelization": 22361,
+          "retained_candidate_fraction": 1.0,
+          "heldout_valid_before_cross_view": 867,
+          "heldout_abs_rel_mean_before_cross_view": 0.0847346108834707,
+          "cross_view_checks": [],
+          "voxelized_points": 22315
+        },
+        "all_multiview": {
+          "selected_supported_views": 14,
+          "views_with_output_points": 14,
+          "candidate_points": 25398,
+          "points_before_voxelization": 16286,
+          "retained_candidate_fraction": 0.6412315930388219,
+          "heldout_valid_before_cross_view": 986,
+          "heldout_abs_rel_mean_before_cross_view": 0.090302132471334,
+          "cross_view_checks": [
+            {
+              "timestamp": 0.8000508,
+              "input_points": 1763,
+              "retained_points": 987,
+              "unsupported_points": 46,
+              "free_space_conflict_points": 744
+            },
+            {
+              "timestamp": 1.0080675,
+              "input_points": 1586,
+              "retained_points": 883,
+              "unsupported_points": 342,
+              "free_space_conflict_points": 528
+            },
+            {
+              "timestamp": 1.5515117,
+              "input_points": 1934,
+              "retained_points": 1036,
+              "unsupported_points": 61,
+              "free_space_conflict_points": 868
+            },
+            {
+              "timestamp": 5.2324153,
+              "input_points": 2231,
+              "retained_points": 1216,
+              "unsupported_points": 117,
+              "free_space_conflict_points": 958
+            },
+            {
+              "timestamp": 6.2404607,
+              "input_points": 1992,
+              "retained_points": 1132,
+              "unsupported_points": 20,
+              "free_space_conflict_points": 848
+            },
+            {
+              "timestamp": 7.3756051,
+              "input_points": 1962,
+              "retained_points": 1445,
+              "unsupported_points": 49,
+              "free_space_conflict_points": 498
+            },
+            {
+              "timestamp": 10.5431244,
+              "input_points": 2184,
+              "retained_points": 1428,
+              "unsupported_points": 335,
+              "free_space_conflict_points": 503
+            },
+            {
+              "timestamp": 11.6808594,
+              "input_points": 1798,
+              "retained_points": 1177,
+              "unsupported_points": 171,
+              "free_space_conflict_points": 491
+            },
+            {
+              "timestamp": 16.9784264,
+              "input_points": 1323,
+              "retained_points": 876,
+              "unsupported_points": 407,
+              "free_space_conflict_points": 49
+            },
+            {
+              "timestamp": 18.0485029,
+              "input_points": 1451,
+              "retained_points": 851,
+              "unsupported_points": 396,
+              "free_space_conflict_points": 231
+            },
+            {
+              "timestamp": 19.0567856,
+              "input_points": 1419,
+              "retained_points": 937,
+              "unsupported_points": 128,
+              "free_space_conflict_points": 442
+            },
+            {
+              "timestamp": 20.8004813,
+              "input_points": 1396,
+              "retained_points": 1193,
+              "unsupported_points": 97,
+              "free_space_conflict_points": 143
+            },
+            {
+              "timestamp": 28.1276347,
+              "input_points": 2423,
+              "retained_points": 1697,
+              "unsupported_points": 122,
+              "free_space_conflict_points": 666
+            },
+            {
+              "timestamp": 29.7917345,
+              "input_points": 1936,
+              "retained_points": 1428,
+              "unsupported_points": 11,
+              "free_space_conflict_points": 506
+            }
+          ],
+          "voxelized_points": 16251
+        },
+        "selected_multiview": {
+          "selected_supported_views": 12,
+          "views_with_output_points": 12,
+          "candidate_points": 22361,
+          "points_before_voxelization": 15442,
+          "retained_candidate_fraction": 0.6905773444836993,
+          "heldout_valid_before_cross_view": 867,
+          "heldout_abs_rel_mean_before_cross_view": 0.0847346108834707,
+          "cross_view_checks": [
+            {
+              "timestamp": 0.8000508,
+              "input_points": 1763,
+              "retained_points": 1022,
+              "unsupported_points": 46,
+              "free_space_conflict_points": 709
+            },
+            {
+              "timestamp": 1.5515117,
+              "input_points": 1934,
+              "retained_points": 1093,
+              "unsupported_points": 61,
+              "free_space_conflict_points": 808
+            },
+            {
+              "timestamp": 5.2324153,
+              "input_points": 2231,
+              "retained_points": 1339,
+              "unsupported_points": 132,
+              "free_space_conflict_points": 831
+            },
+            {
+              "timestamp": 6.2404607,
+              "input_points": 1992,
+              "retained_points": 1255,
+              "unsupported_points": 20,
+              "free_space_conflict_points": 724
+            },
+            {
+              "timestamp": 7.3756051,
+              "input_points": 1962,
+              "retained_points": 1507,
+              "unsupported_points": 56,
+              "free_space_conflict_points": 425
+            },
+            {
+              "timestamp": 10.5431244,
+              "input_points": 2184,
+              "retained_points": 1553,
+              "unsupported_points": 344,
+              "free_space_conflict_points": 369
+            },
+            {
+              "timestamp": 11.6808594,
+              "input_points": 1798,
+              "retained_points": 1267,
+              "unsupported_points": 186,
+              "free_space_conflict_points": 396
+            },
+            {
+              "timestamp": 16.9784264,
+              "input_points": 1323,
+              "retained_points": 865,
+              "unsupported_points": 418,
+              "free_space_conflict_points": 47
+            },
+            {
+              "timestamp": 19.0567856,
+              "input_points": 1419,
+              "retained_points": 1060,
+              "unsupported_points": 197,
+              "free_space_conflict_points": 307
+            },
+            {
+              "timestamp": 20.8004813,
+              "input_points": 1396,
+              "retained_points": 1225,
+              "unsupported_points": 117,
+              "free_space_conflict_points": 92
+            },
+            {
+              "timestamp": 28.1276347,
+              "input_points": 2423,
+              "retained_points": 1790,
+              "unsupported_points": 138,
+              "free_space_conflict_points": 573
+            },
+            {
+              "timestamp": 29.7917345,
+              "input_points": 1936,
+              "retained_points": 1466,
+              "unsupported_points": 17,
+              "free_space_conflict_points": 467
+            }
+          ],
+          "voxelized_points": 15408
+        }
+      }
+    },
+    "rejected": {
+      "session": "93601a495a6147a88e625fa1f03345c9",
+      "retained_keyframes": 8,
+      "selected_keyframes_before_depth_acceptance": 4,
+      "depth_supported_views": 0,
+      "variants": {
+        "all": {
+          "selected_supported_views": 0,
+          "views_with_output_points": 0,
+          "candidate_points": 0,
+          "points_before_voxelization": 0,
+          "retained_candidate_fraction": null,
+          "heldout_valid_before_cross_view": 0,
+          "heldout_abs_rel_mean_before_cross_view": null,
+          "cross_view_checks": [],
+          "voxelized_points": 0
+        },
+        "selected": {
+          "selected_supported_views": 0,
+          "views_with_output_points": 0,
+          "candidate_points": 0,
+          "points_before_voxelization": 0,
+          "retained_candidate_fraction": null,
+          "heldout_valid_before_cross_view": 0,
+          "heldout_abs_rel_mean_before_cross_view": null,
+          "cross_view_checks": [],
+          "voxelized_points": 0
+        },
+        "all_multiview": {
+          "selected_supported_views": 0,
+          "views_with_output_points": 0,
+          "candidate_points": 0,
+          "points_before_voxelization": 0,
+          "retained_candidate_fraction": null,
+          "heldout_valid_before_cross_view": 0,
+          "heldout_abs_rel_mean_before_cross_view": null,
+          "cross_view_checks": [],
+          "voxelized_points": 0
+        },
+        "selected_multiview": {
+          "selected_supported_views": 0,
+          "views_with_output_points": 0,
+          "candidate_points": 0,
+          "points_before_voxelization": 0,
+          "retained_candidate_fraction": null,
+          "heldout_valid_before_cross_view": 0,
+          "heldout_abs_rel_mean_before_cross_view": null,
+          "cross_view_checks": [],
+          "voxelized_points": 0
+        }
+      }
+    }
+  },
+  "limitations": [
+    "Offline final optimized geometry, not a live performance experiment",
+    "Two previously investigated examples, not an unseen validation set",
+    "Selection sharpness/shared-count thresholds are fixed engineering heuristics, not calibrated confidence",
+    "No ground truth: retained points and agreement are consistency/coverage, not independent accuracy",
+    "Selection changes view coverage; cross-view filtering does not improve identical estimates",
+    "No live defaults or fusion acceptance thresholds changed"
+  ]
+}

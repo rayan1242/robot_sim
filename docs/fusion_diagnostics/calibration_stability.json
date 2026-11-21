@@ -1,0 +1,53 @@
+{
+  "views": 24,
+  "image_size_wh": [
+    640,
+    480
+  ],
+  "saved_fx": 951.9631600746668,
+  "corner_hull_image_fraction": 0.3670024256695221,
+  "folds": [
+    {
+      "training_views": 18,
+      "heldout_views": 6,
+      "training_rms_px": 0.1100402573781306,
+      "fx": 949.4035575840717,
+      "fy": 948.9681969192759,
+      "cx": 325.3664024509929,
+      "cy": 245.90708575723124,
+      "heldout_reprojection_rms_px": 0.09663938175568923
+    },
+    {
+      "training_views": 18,
+      "heldout_views": 6,
+      "training_rms_px": 0.08911139848306103,
+      "fx": 950.158171741924,
+      "fy": 950.8692046469787,
+      "cx": 317.6867402031695,
+      "cy": 247.92010161438,
+      "heldout_reprojection_rms_px": 0.15022590092145927
+    },
+    {
+      "training_views": 18,
+      "heldout_views": 6,
+      "training_rms_px": 0.10677174318296698,
+      "fx": 953.6380840443584,
+      "fy": 953.2507335664143,
+      "cx": 324.75242721912684,
+      "cy": 247.8786820912931,
+      "heldout_reprojection_rms_px": 0.10646223561410968
+    },
+    {
+      "training_views": 18,
+      "heldout_views": 6,
+      "training_rms_px": 0.11190044868814394,
+      "fx": 953.2298279771265,
+      "fy": 952.9518246250079,
+      "cx": 324.1357718002904,
+      "cy": 247.1150584965526,
+      "heldout_reprojection_rms_px": 0.08566738245427688
+    }
+  ],
+  "fx_relative_range": 0.00444820413003647,
+  "note": "Sensitivity test only. Held-out board poses are fitted; low reprojection error does not establish correct intrinsics or unchanged webcam focus."
+}

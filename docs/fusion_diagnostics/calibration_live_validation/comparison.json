@@ -1,0 +1,90 @@
+{
+  "views": 31,
+  "old_matrix": [
+    [
+      951.9631600746668,
+      0.0,
+      323.00666098697803
+    ],
+    [
+      0.0,
+      951.8141230038141,
+      247.14400569157547
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "candidate_matrix": [
+    [
+      938.8298712077814,
+      0.0,
+      313.4164095609655
+    ],
+    [
+      0.0,
+      940.9739393421787,
+      244.17501144341142
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "old_distortion": [
+    [
+      0.07606089941071717,
+      0.4798573276873785,
+      0.002096603438651915,
+      0.0021557731888565187,
+      -3.2458749815613355
+    ]
+  ],
+  "candidate_distortion": [
+    [
+      0.056335186631767245,
+      0.8389154322301232,
+      0.0009165651650788773,
+      -0.0004976424076950608,
+      -5.461594352151006
+    ]
+  ],
+  "folds": [
+    {
+      "training_views": 23,
+      "heldout_views": 8,
+      "candidate_heldout_rms_px": 0.19747315571269058,
+      "old_heldout_rms_px": 0.19549232231270325,
+      "fx": 944.7608671617998,
+      "fy": 944.9938053150686
+    },
+    {
+      "training_views": 23,
+      "heldout_views": 8,
+      "candidate_heldout_rms_px": 0.10972835460458795,
+      "old_heldout_rms_px": 0.11380925168701662,
+      "fx": 938.9815419349395,
+      "fy": 941.0513941402038
+    },
+    {
+      "training_views": 23,
+      "heldout_views": 8,
+      "candidate_heldout_rms_px": 0.11438007776802207,
+      "old_heldout_rms_px": 0.10352184273783248,
+      "fx": 937.0908757186077,
+      "fy": 939.4075183248481
+    },
+    {
+      "training_views": 24,
+      "heldout_views": 7,
+      "candidate_heldout_rms_px": 0.10940080201715748,
+      "old_heldout_rms_px": 0.10493706075133996,
+      "fx": 937.3369225246585,
+      "fy": 940.152771906323
+    }
+  ],
+  "note": "Fresh views validate frozen old calibration; candidate tested with four-fold refits. Board pose estimated per test view. No independent 3D accuracy guarantee."
+}

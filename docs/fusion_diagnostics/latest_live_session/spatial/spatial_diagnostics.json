@@ -1,0 +1,317 @@
+{
+  "views": [
+    {
+      "timestamp": 4.0325306,
+      "samples": 380,
+      "rank_correlation": -0.7115663069543053,
+      "reprojection_median_px": 0.7908850671479222,
+      "cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "samples": 4,
+          "median_model_nearness_percentile": 0.02236842105263158,
+          "median_slam_nearness_percentile": 0.6578947368421053,
+          "local_rank_correlation": null
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "samples": 5,
+          "median_model_nearness_percentile": 0.039473684210526314,
+          "median_slam_nearness_percentile": 0.7263157894736842,
+          "local_rank_correlation": null
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "samples": 7,
+          "median_model_nearness_percentile": 0.10263157894736842,
+          "median_slam_nearness_percentile": 0.881578947368421,
+          "local_rank_correlation": null
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "samples": 0,
+          "median_model_nearness_percentile": null,
+          "median_slam_nearness_percentile": null,
+          "local_rank_correlation": null
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "samples": 16,
+          "median_model_nearness_percentile": 0.05394736842105263,
+          "median_slam_nearness_percentile": 0.4855263157894737,
+          "local_rank_correlation": -0.65
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "samples": 55,
+          "median_model_nearness_percentile": 0.23421052631578948,
+          "median_slam_nearness_percentile": 0.5578947368421052,
+          "local_rank_correlation": -0.5675324675324677
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "samples": 88,
+          "median_model_nearness_percentile": 0.2802631578947368,
+          "median_slam_nearness_percentile": 0.7723684210526316,
+          "local_rank_correlation": -0.12655418970800608
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "samples": 8,
+          "median_model_nearness_percentile": 0.5657894736842105,
+          "median_slam_nearness_percentile": 0.36447368421052634,
+          "local_rank_correlation": null
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "samples": 23,
+          "median_model_nearness_percentile": 0.9131578947368421,
+          "median_slam_nearness_percentile": 0.09736842105263158,
+          "local_rank_correlation": 0.015810276679841896
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "samples": 67,
+          "median_model_nearness_percentile": 0.8342105263157895,
+          "median_slam_nearness_percentile": 0.12894736842105264,
+          "local_rank_correlation": -0.6994971665735494
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "samples": 66,
+          "median_model_nearness_percentile": 0.5934210526315788,
+          "median_slam_nearness_percentile": 0.48026315789473684,
+          "local_rank_correlation": -0.6239640956058867
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "samples": 41,
+          "median_model_nearness_percentile": 0.6657894736842105,
+          "median_slam_nearness_percentile": 0.4263157894736842,
+          "local_rank_correlation": -0.7069686411149828
+        }
+      ]
+    },
+    {
+      "timestamp": 11.2797574,
+      "samples": 403,
+      "rank_correlation": -0.6861584884461557,
+      "reprojection_median_px": 1.0048870236434344,
+      "cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "samples": 0,
+          "median_model_nearness_percentile": null,
+          "median_slam_nearness_percentile": null,
+          "local_rank_correlation": null
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "samples": 5,
+          "median_model_nearness_percentile": 0.19106699751861042,
+          "median_slam_nearness_percentile": 0.6352357320099256,
+          "local_rank_correlation": null
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "samples": 0,
+          "median_model_nearness_percentile": null,
+          "median_slam_nearness_percentile": null,
+          "local_rank_correlation": null
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "samples": 0,
+          "median_model_nearness_percentile": null,
+          "median_slam_nearness_percentile": null,
+          "local_rank_correlation": null
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "samples": 43,
+          "median_model_nearness_percentile": 0.3945409429280397,
+          "median_slam_nearness_percentile": 0.38213399503722084,
+          "local_rank_correlation": 0.007097553609181516
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "samples": 108,
+          "median_model_nearness_percentile": 0.36352357320099254,
+          "median_slam_nearness_percentile": 0.5086848635235732,
+          "local_rank_correlation": -0.6736688673583127
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "samples": 6,
+          "median_model_nearness_percentile": 0.6985111662531017,
+          "median_slam_nearness_percentile": 0.21464019851116625,
+          "local_rank_correlation": null
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "samples": 0,
+          "median_model_nearness_percentile": null,
+          "median_slam_nearness_percentile": null,
+          "local_rank_correlation": null
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "samples": 37,
+          "median_model_nearness_percentile": 0.8759305210918115,
+          "median_slam_nearness_percentile": 0.04714640198511166,
+          "local_rank_correlation": -0.6735419630156472
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "samples": 55,
+          "median_model_nearness_percentile": 0.6799007444168734,
+          "median_slam_nearness_percentile": 0.33002481389578164,
+          "local_rank_correlation": -0.35404040404040416
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "samples": 73,
+          "median_model_nearness_percentile": 0.34491315136476425,
+          "median_slam_nearness_percentile": 0.5955334987593052,
+          "local_rank_correlation": -0.8804763667777368
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "samples": 76,
+          "median_model_nearness_percentile": 0.42431761786600497,
+          "median_slam_nearness_percentile": 0.7307692307692308,
+          "local_rank_correlation": -0.6437457279562543
+        }
+      ]
+    },
+    {
+      "timestamp": 29.9356811,
+      "samples": 328,
+      "rank_correlation": -0.6344902025580332,
+      "reprojection_median_px": 1.1369858828425092,
+      "cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "samples": 27,
+          "median_model_nearness_percentile": 0.4969512195121951,
+          "median_slam_nearness_percentile": 0.7896341463414634,
+          "local_rank_correlation": -0.556250960533571
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "samples": 15,
+          "median_model_nearness_percentile": 0.38109756097560976,
+          "median_slam_nearness_percentile": 0.9054878048780488,
+          "local_rank_correlation": -0.8928571428571428
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "samples": 0,
+          "median_model_nearness_percentile": null,
+          "median_slam_nearness_percentile": null,
+          "local_rank_correlation": null
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "samples": 0,
+          "median_model_nearness_percentile": null,
+          "median_slam_nearness_percentile": null,
+          "local_rank_correlation": null
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "samples": 59,
+          "median_model_nearness_percentile": 0.6829268292682927,
+          "median_slam_nearness_percentile": 0.47560975609756095,
+          "local_rank_correlation": 0.34202220923436594
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "samples": 39,
+          "median_model_nearness_percentile": 0.7621951219512195,
+          "median_slam_nearness_percentile": 0.16158536585365854,
+          "local_rank_correlation": -0.6842105263157895
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "samples": 86,
+          "median_model_nearness_percentile": 0.13719512195121952,
+          "median_slam_nearness_percentile": 0.7637195121951219,
+          "local_rank_correlation": -0.6462474645030426
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "samples": 26,
+          "median_model_nearness_percentile": 0.45426829268292684,
+          "median_slam_nearness_percentile": 0.42835365853658536,
+          "local_rank_correlation": -0.33606837606837603
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "samples": 10,
+          "median_model_nearness_percentile": 0.9862804878048781,
+          "median_slam_nearness_percentile": 0.01676829268292683,
+          "local_rank_correlation": -0.4424242424242424
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "samples": 37,
+          "median_model_nearness_percentile": 0.8871951219512195,
+          "median_slam_nearness_percentile": 0.1798780487804878,
+          "local_rank_correlation": 0.058321479374110946
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "samples": 21,
+          "median_model_nearness_percentile": 0.2347560975609756,
+          "median_slam_nearness_percentile": 0.5457317073170732,
+          "local_rank_correlation": -0.14935064935064934
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "samples": 8,
+          "median_model_nearness_percentile": 0.4039634146341463,
+          "median_slam_nearness_percentile": 0.24847560975609756,
+          "local_rank_correlation": null
+        }
+      ]
+    }
+  ],
+  "note": "Image cells are fixed, not object segmentation. Nearness ranks are relative to projected samples per view. No ground truth."
+}

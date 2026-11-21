@@ -1,0 +1,4 @@
+-r requirements.txt
+scipy>=1.11
+matplotlib>=3.8
+msgpack>=1.0

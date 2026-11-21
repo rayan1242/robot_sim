@@ -1,0 +1,241 @@
+{
+  "session": {
+    "id": "fdcaebe047df439fa60dd00f6e0586c4",
+    "created_at": "2026-11-01T21:34:23.745916+00:00",
+    "name": "Webcam session",
+    "status": "ready",
+    "metadata": {
+      "source": "webcam",
+      "options": {
+        "name": "Webcam session",
+        "camera": 0,
+        "width": 640,
+        "height": 480,
+        "fps": 15.0,
+        "duration": 30.0,
+        "backend": "dshow",
+        "depth": true,
+        "device": "auto",
+        "auto_exposure": true,
+        "depth_width": 224,
+        "depth_height": 168,
+        "deadline_ms": 500,
+        "slam": true,
+        "keyframe_map": true,
+        "slam_initialization_profile": "strict",
+        "slam_config": "C:\\Users\\Rayyan\\developer\\robot_sim\\slam\\webcam_640_mono_strict.yaml"
+      },
+      "limitations": [
+        "Experimental live SLAM; initialization/tracking may fail",
+        "Bounded cross-view-validated keyframe window rebuilt with current poses; not complete room reconstruction",
+        "Arbitrary SLAM units, not meters; fits do not establish independent accuracy"
+      ],
+      "map_snapshot_saved": true,
+      "map_snapshot_warning": null,
+      "actual_image_size_wh": [
+        640,
+        480
+      ],
+      "actual_device": "cpu",
+      "model": "depth-anything/Depth-Anything-V2-Small-hf",
+      "saved_rgb_frames": 103
+    }
+  },
+  "outputs": 103,
+  "posed": 84,
+  "first_pose": 3.952465799986385,
+  "dense_outputs": 79,
+  "first_dense": 4.432918500038795,
+  "last_dense": 29.871390699991025,
+  "peak_dense": 5323,
+  "final_fusion": {
+    "state": "keyframe_window",
+    "reason": null,
+    "dense_history": "bounded active keyframe window; rebuilt with current poses and landmark depths",
+    "window_keyframes": [
+      2,
+      10,
+      11,
+      12
+    ],
+    "prediction_cache_size": 6,
+    "window_limit": 4,
+    "cache_limit": 8,
+    "dense_points": 1366,
+    "new_keyframe_id": null,
+    "keyframe_inference_ms": 0.0,
+    "keyframe_removals": [],
+    "candidate_decisions": [],
+    "selection_policy": "all_cached",
+    "window_policy": "diverse",
+    "per_keyframe": [
+      {
+        "id": 0,
+        "timestamp": 0.7996483,
+        "state": "sparse_only",
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 108,
+          "training_depth_inlier_fraction": 0.6708074534161491,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7660541752933059,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      },
+      {
+        "id": 2,
+        "timestamp": 4.8951604,
+        "state": "local_dense_preview",
+        "reason": null,
+        "quality": {
+          "training_depth_inliers": 118,
+          "training_depth_inlier_fraction": 0.7421383647798742,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.8053588488177693,
+          "training_hull_image_fraction": 0.4767138981046882,
+          "prediction_support_min": 0.167286506742239,
+          "prediction_support_max": 2.1595617389678954,
+          "dense_supported_pixel_fraction": 0.4650563350340136
+        },
+        "heldout_samples": 39,
+        "invalid_heldout": 0,
+        "heldout_abs_rel_mean": 0.13521804217422975
+      },
+      {
+        "id": 3,
+        "timestamp": 5.9032309,
+        "state": "local_dense_preview",
+        "reason": null,
+        "quality": {
+          "training_depth_inliers": 121,
+          "training_depth_inlier_fraction": 0.8120805369127517,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.8216687828768365,
+          "training_hull_image_fraction": 0.43568565249646873,
+          "prediction_support_min": 0.14362950325012208,
+          "prediction_support_max": 2.716880226135254,
+          "dense_supported_pixel_fraction": 0.4340720663265306
+        },
+        "heldout_samples": 37,
+        "invalid_heldout": 0,
+        "heldout_abs_rel_mean": 0.09335616867280608
+      },
+      {
+        "id": 10,
+        "timestamp": 20.7353186,
+        "state": "local_dense_preview",
+        "reason": null,
+        "quality": {
+          "training_depth_inliers": 104,
+          "training_depth_inlier_fraction": 0.8387096774193549,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7484752163650668,
+          "training_hull_image_fraction": 0.33617815640931914,
+          "prediction_support_min": 0.15627170100808144,
+          "prediction_support_max": 1.6143521893024444,
+          "dense_supported_pixel_fraction": 0.29334077380952384
+        },
+        "heldout_samples": 30,
+        "invalid_heldout": 0,
+        "heldout_abs_rel_mean": 0.0974944971009411
+      },
+      {
+        "id": 11,
+        "timestamp": 22.1430245,
+        "state": "local_dense_preview",
+        "reason": null,
+        "quality": {
+          "training_depth_inliers": 97,
+          "training_depth_inlier_fraction": 0.7950819672131147,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7547096863733845,
+          "training_hull_image_fraction": 0.3254404316794716,
+          "prediction_support_min": 0.16456520915031433,
+          "prediction_support_max": 1.3020732355117797,
+          "dense_supported_pixel_fraction": 0.2354113520408163
+        },
+        "heldout_samples": 30,
+        "invalid_heldout": 0,
+        "heldout_abs_rel_mean": 0.10406320103770565
+      },
+      {
+        "id": 12,
+        "timestamp": 23.2793013,
+        "state": "local_dense_preview",
+        "reason": null,
+        "quality": {
+          "training_depth_inliers": 114,
+          "training_depth_inlier_fraction": 0.8769230769230769,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.8170615466550136,
+          "training_hull_image_fraction": 0.30814794058254613,
+          "prediction_support_min": 0.1531746555864811,
+          "prediction_support_max": 1.5558965706825258,
+          "dense_supported_pixel_fraction": 0.24003507653061223
+        },
+        "heldout_samples": 32,
+        "invalid_heldout": 0,
+        "heldout_abs_rel_mean": 0.10460063520011822
+      }
+    ],
+    "cross_view": [
+      {
+        "id": 2,
+        "input_points": 1937,
+        "retained_points": 417,
+        "unsupported_points": 1393,
+        "free_space_conflict_points": 468
+      },
+      {
+        "id": 10,
+        "input_points": 1228,
+        "retained_points": 396,
+        "unsupported_points": 832,
+        "free_space_conflict_points": 280
+      },
+      {
+        "id": 11,
+        "input_points": 981,
+        "retained_points": 307,
+        "unsupported_points": 674,
+        "free_space_conflict_points": 283
+      },
+      {
+        "id": 12,
+        "input_points": 1006,
+        "retained_points": 246,
+        "unsupported_points": 760,
+        "free_space_conflict_points": 295
+      }
+    ],
+    "window_update_ms": 29.840800038073212
+  },
+  "timing": {
+    "capture_receipt_to_packet": {
+      "samples": 103,
+      "p50_ms": 309.8175000050105,
+      "p95_ms": 686.9519400177522,
+      "p99_ms": 732.9550139978529
+    },
+    "output_interval": {
+      "samples": 102,
+      "p50_ms": 252.4054499808699,
+      "p95_ms": 618.7008100212552,
+      "p99_ms": 648.2461150031304
+    },
+    "interval_jitter_abs_deviation_from_median": {
+      "samples": 102,
+      "p50_ms": 16.8940500007011,
+      "p95_ms": 366.2953600403852,
+      "p99_ms": 395.8406650222605
+    },
+    "deadline_ms": 500,
+    "deadline_misses": 13,
+    "skipped_capture_frames": 343,
+    "scope": "Software capture receipt to packet readiness. Excludes sensor buffering and network/browser display."
+  },
+  "policies": {
+    "all_cached / diverse": 103
+  },
+  "map_points": 1671
+}

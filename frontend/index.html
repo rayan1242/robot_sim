@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101719">
+  <meta name="description" content="Local camera perception, spatial reconstruction, and session replay workspace.">
+  <title>MONO · Spatial workspace</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+</head>
+<body>
+  <aside class="rail" aria-label="Workspace navigation">
+    <a class="brand" href="/" aria-label="MONO workspace"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 24V8l11 11L27 8v16M5 8l11 8L27 8"/></svg></a>
+    <div class="rail-divider"></div>
+    <button class="rail-button active" id="nav-workspace" title="Workspace" aria-label="Workspace"><svg viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5 9-5Zm-9 9 9 5 9-5M3 16l9 5 9-5"/></svg></button>
+    <button class="rail-button" id="nav-sessions" title="Sessions" aria-label="Sessions"><svg viewBox="0 0 24 24"><path d="M4 6h6l2 2h8v12H4V6ZM4 4h7l2 2h7"/></svg></button>
+    <button class="rail-button" id="nav-diagnostics" title="Stream diagnostics" aria-label="Stream diagnostics"><svg viewBox="0 0 24 24"><path d="M3 13h4l3-8 4 15 3-7h4"/></svg></button>
+    <div class="rail-spacer"></div>
+    <button class="rail-button" id="connection-button" title="Connection details" aria-label="Connection details"><svg viewBox="0 0 24 24"><path d="M7 3v5m10-5v5M5 8h14v3a7 7 0 0 1-7 7v4M8 18h8"/></svg></button>
+    <span class="rail-version">v0.1</span>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><div class="breadcrumb">MONO <span>/</span> Perception lab <span>/</span> <strong>Workspace</strong></div>
+      <div class="top-actions"><span id="connection" class="connection"><i></i><span>Connecting</span></span><a href="/docs" target="_blank" rel="noopener" class="api-link">API docs ↗</a></div>
+    </header>
+    <main id="main">
+      <section class="page-heading"><div><div class="eyebrow"><span class="tiny-cross">+</span> CAMERA-ONLY PERCEPTION</div><h1>Spatial workspace<span>.</span></h1><p>Your camera. A different perspective.</p></div>
+        <div class="heading-actions"><button id="quick-replay" class="button secondary" disabled>▶ Start replay</button><button id="new-recording" class="button primary"><span class="plus">+</span> New recording</button></div>
+      </section>
+      <section class="metrics" aria-label="Stream measurements">
+        <article class="metric"><div class="metric-label">SOURCE RATE <span>↗</span></div><div class="metric-value" id="fps">— <small>FPS</small></div><div class="metric-note" id="fps-note">Waiting for a source</div></article>
+        <article class="metric"><div class="metric-label">MAP POINTS <span>⠿</span></div><div class="metric-value" id="points">0</div><div class="metric-note" id="points-note">No snapshot loaded</div></article>
+        <article class="metric"><div class="metric-label">CAMERA POSE <span>⌖</span></div><div class="metric-value status-value" id="pose-status">Unavailable</div><div class="metric-note" id="pose-note">Select a session to begin</div></article>
+        <article class="metric"><div class="metric-label">PROCESSING <span>⌁</span></div><div class="metric-value" id="latency">— <small>ms</small></div><div class="metric-note" id="latency-note">No recorded timing samples</div></article>
+      </section>
+      <section class="views">
+        <article class="panel map-panel">
+          <header class="panel-heading"><div class="panel-title"><span class="section-index">01</span><h2>Spatial reconstruction</h2><span class="tag" id="map-kind">NO MAP</span></div><button class="icon-button" id="fit-map" title="Fit map to view" aria-label="Fit map to view">⤢</button></header>
+          <div class="map-stage" id="map-stage"><div id="viewport" aria-label="Interactive 3D point cloud. Drag to orbit, scroll to zoom."></div>
+            <div class="map-topline"><span class="mono-label">PERSPECTIVE <span class="muted">/</span> <span id="unit-label">SLAM UNITS</span></span><div class="map-tool-group"><button id="toggle-grid" class="chip active" aria-pressed="true">Grid</button><button id="toggle-trail" class="chip active" aria-pressed="true">Trajectory</button></div></div>
+            <div class="map-empty" id="map-empty"><svg viewBox="0 0 70 70"><path d="m35 7 25 14v28L35 63 10 49V21L35 7Zm0 0v56M10 21l25 14 25-14M10 49l25-14 25 14"/></svg><h3>A new point of view</h3><p>Select a saved session to inspect its map.</p></div>
+            <div class="map-bottomline"><div class="legend"><span><i class="dot mint"></i>Point cloud</span><span><i class="line mint"></i>Sampled trajectory</span></div><span class="axis-mark"><b>X</b><b>Y</b><b>Z</b></span></div>
+          </div>
+          <footer class="map-footer"><span><i class="status-dot"></i> <span id="map-description">Orbit · drag &nbsp; Zoom · scroll &nbsp; Pan · right-drag</span></span><span>Reference grid ≠ ground plane</span></footer>
+        </article>
+        <article class="panel camera-panel"><header class="panel-heading"><div class="panel-title"><span class="section-index">02</span><h2>Camera feed</h2></div><span class="tag" id="source-kind">IDLE</span></header>
+          <div class="camera-stage"><img id="camera-image" alt="Selected session camera frame" hidden><img id="depth-image" alt="Relative depth overlay" hidden><div class="camera-empty" id="camera-empty"><span class="viewfinder">⌗</span><strong>No camera source</strong><span>Choose a replay or start a recording.</span></div><div class="camera-overlay"><span id="frame-label">FRAME —</span><span id="resolution">— × —</span></div></div>
+          <div class="camera-controls"><div class="segmented"><button id="rgb-mode" class="active" aria-pressed="true">RGB</button><button id="depth-mode" aria-pressed="false" disabled title="Depth was not recorded for this session">Depth overlay</button></div><span class="muted" id="camera-time">00:00.0</span></div>
+          <div class="playback"><div class="playback-top"><div><span class="eyebrow">NOW SELECTED</span><h3 id="selected-name">Select a session</h3></div><span id="stream-state" class="state-label">READY</span></div>
+            <progress id="progress" value="0" max="1" aria-label="Replay progress"></progress>
+            <div class="playback-actions"><button class="button secondary" id="play" disabled><span>▶</span> Start replay</button><button class="button quiet" id="stop" disabled>■ Stop</button><label class="speed-control"><span class="sr-only">Replay speed</span><select id="speed"><option value="0.5">0.5×</option><option value="1" selected>1× speed</option><option value="2">2× speed</option><option value="4">4× speed</option></select></label></div>
+          </div>
+          <div id="source-note" class="source-note"><span>ⓘ</span><p>Saved maps are snapshots. Enable live SLAM when recording for experimental poses and map updates.</p></div>
+        </article>
+      </section>
+      <section class="panel replay-analysis" aria-label="Live freshness measurements"><header class="panel-heading"><h2>Live freshness</h2></header><div class="analysis-body"><p id="freshness">Start a live recording to measure frame age and update jitter.</p><p id="browser-timing">Browser image decoding: unavailable</p><p class="analysis-note">Software capture receipt excludes sensor buffering. Browser decoding is measured separately; network transit and physical screen latency are not inferred. Jitter is output-interval deviation from its median, not spatial map instability.</p></div></section>
+      <section class="replay-analysis panel" aria-label="Recorded reconstruction diagnostics">
+        <header class="panel-heading"><div class="panel-title"><h2>Recorded-session evidence</h2></div><span class="tag">OFFLINE REPLAY</span></header>
+        <div class="analysis-body">
+          <p id="run-info">Select a session. Unrecorded measurements remain unavailable.</p>
+          <p id="tracking-summary">Tracking measurements unavailable</p>
+          <canvas id="tracking-timeline" width="1000" height="28" role="img" aria-label="Pose availability timeline: green available, amber unavailable"></canvas>
+          <p class="analysis-note">Green: live pose available. Amber: unavailable, including initialization. Saved optimized pose availability may differ.</p>
+          <p id="fusion-summary">Fusion measurements unavailable</p>
+          <canvas id="fusion-chart" width="1000" height="100" role="img" aria-label="Per-keyframe held-out relative depth agreement errors"></canvas>
+          <p class="analysis-note">Bars show per-keyframe held-out relative error, not independent map accuracy. Missing values are not zero.</p>
+          <p id="offline-timing">Offline timing samples unavailable</p>
+          <p class="analysis-note">Offline depth timings exclude warm-up. SLAM timings cover its recorded tracking call only. Playback speed is independent of processing speed.</p>
+        </div>
+      </section>
+      <section class="lower-grid">
+        <article class="panel timing-panel" id="timing-panel"><header class="panel-heading"><div class="panel-title"><span class="section-index">03</span><h2 id="timing-title">Pipeline timing</h2></div><span class="mono-label">LATEST 120 SAMPLES</span></header>
+          <div class="timing-summary"><div><span class="eyebrow">MEDIAN</span><strong id="p50">— <small>ms</small></strong></div><div><span class="eyebrow">95TH PERCENTILE</span><strong id="p95">— <small>ms</small></strong></div><span class="timing-key" id="timing-scope">Capture → state</span></div>
+          <div class="chart-wrap"><canvas id="latency-chart" aria-label="Measured capture-to-state latency chart"></canvas><div id="timing-empty" class="chart-empty">No timing samples in this source.<br><span>Imported replay doesn’t invent latency measurements.</span></div></div>
+          <div class="stage-table"><div><span>Stage (some overlap)</span><span>p50</span><span>p95</span></div><div><span>Age before depth worker</span><span id="input-p50">—</span><span id="input-p95">—</span></div><div><span>SLAM round trip</span><span id="roundtrip-p50">—</span><span id="roundtrip-p95">—</span></div><div><span>SLAM tracking call</span><span id="slam-p50">—</span><span id="slam-p95">—</span></div><div><span>RGB storage</span><span id="save-p50">—</span><span id="save-p95">—</span></div><div><span>Preprocessing</span><span id="pre-p50">—</span><span id="pre-p95">—</span></div><div><span>Depth inference</span><span id="infer-p50">—</span><span id="infer-p95">—</span></div><div><span>Postprocessing</span><span id="post-p50">—</span><span id="post-p95">—</span></div><div><span>Fusion + map export</span><span id="fusion-p50">—</span><span id="fusion-p95">—</span></div></div>
+        </article>
+        <article class="panel sessions-panel" id="sessions-panel"><header class="panel-heading"><div class="panel-title"><span class="section-index">04</span><h2>Session library</h2><span class="count" id="session-count">0</span></div><button class="text-button" id="refresh-sessions">↻ Refresh</button></header>
+          <div class="session-list" id="session-list"><div class="list-empty">Loading your sessions…</div></div>
+          <footer class="sessions-footer"><span id="library-note">Stored locally on this machine</span><span class="mono-label">ON THIS DEVICE</span></footer>
+        </article>
+      </section>
+      <details class="limitations" id="limitations"><summary><span><span class="status-dot amber"></span> Experimental perception · understand the limits</span><span>Details +</span></summary><div><p>Point clouds use arbitrary SLAM units, not meters. Replay shows saved optimized poses and a final map, not a live growing reconstruction. Webcam fusion remains unreliable. Live mapping is a sparse map plus a local dense preview, not a complete accumulated room reconstruction.</p><ul id="session-limitations"></ul></div></details>
+      <footer class="page-footer"><span>MONO <span class="muted">/</span> Spatial perception lab</span><span id="footer-state">Waiting for backend</span><span><i class="status-dot"></i> LOCAL WORKSPACE</span></footer>
+    </main>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <dialog id="record-dialog"><form id="record-form"><div class="dialog-heading"><div><div class="eyebrow">LIVE CAPTURE</div><h2>New recording</h2></div><button type="button" class="icon-button close-dialog" aria-label="Close">×</button></div><p class="dialog-description">Record RGB frames and timestamps. Camera access begins when you start.</p>
+    <label>Session name<input name="name" value="Webcam session" required maxlength="120"></label><div class="form-grid"><label>Camera index<input name="camera" type="number" min="0" max="20" value="0" required></label><label>Duration (seconds)<input name="duration" type="number" min="1" max="600" value="30" required></label><label>Width<input name="width" type="number" min="64" max="1920" value="640" required></label><label>Height<input name="height" type="number" min="64" max="1080" value="480" required></label></div>
+    <label class="checkbox-label"><input name="slam" type="checkbox"> Live SLAM and map (experimental)<span>Requires calibrated 640×480 capture and installed WSL runner. Enables depth. Shows a global sparse map and current local dense preview.</span></label>
+    <label class="checkbox-label"><input name="keyframe_map" type="checkbox"> Validated keyframe window (experimental)<span>Also enables live SLAM/depth. Keeps up to four cross-view-supported keyframes and rebuilds them after pose changes. Adds processing work.</span></label>
+    <label>Depth input size (when enabled)<select name="depth_size"><option value="320,240">320 × 240 — more detail</option><option value="224,168">224 × 168 — intermediate</option><option value="160,120">160 × 120 — faster, less detail</option></select></label>
+    <div class="record-settings"><span>Camera backend <strong>DirectShow · auto exposure requested</strong></span><span>Requested rate <strong>15 FPS</strong></span></div><label class="checkbox-label"><input name="depth" type="checkbox"> Also save relative depth <span>Uses the cached model; CPU processing may reduce frame rate.</span></label><div class="dialog-note">Depth-only mode has no camera trajectory. Enable live SLAM for experimental poses and mapping; initialization can fail.</div><div class="dialog-actions"><button type="button" class="button quiet close-dialog">Cancel</button><button type="submit" class="button primary" id="record-submit">● Start recording</button></div>
+  </form></dialog>
+  <dialog id="connection-dialog"><div class="dialog-heading"><div><div class="eyebrow">CONNECTION</div><h2>Local backend</h2></div><button class="icon-button close-dialog" aria-label="Close">×</button></div><p class="dialog-description">The dashboard connects to the server that serves this page.</p><code id="endpoint"></code><p id="connection-detail" class="dialog-note">Connecting…</p><button class="button primary" id="reconnect">Reconnect stream</button></dialog>
+  <dialog id="delete-dialog"><div class="dialog-heading"><h2>Delete this session?</h2><button class="icon-button close-dialog" aria-label="Close">×</button></div><p class="dialog-description" id="delete-description"></p><p class="dialog-note">This deletes the stored session and its recording files. Original imported source files remain untouched.</p><div class="dialog-actions"><button class="button quiet close-dialog">Cancel</button><button class="button danger" id="confirm-delete">Delete session</button></div></dialog>
+  <noscript>This dashboard requires JavaScript. The API is available at <a href="/docs">/docs</a>.</noscript>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

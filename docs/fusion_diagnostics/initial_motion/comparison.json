@@ -1,0 +1,43 @@
+{
+  "cases": [
+    {
+      "label": "partial_success",
+      "session_id": "9086c570212e41899113fc580f536605",
+      "archive_pair_indices": [
+        12,
+        170
+      ],
+      "timestamps": [
+        0.8144835,
+        11.407083
+      ],
+      "ratio_test_matches": 1285,
+      "homography_inlier_fraction_3px": 0.6832684824902724,
+      "essential_inlier_fraction_1px": 0.8568093385214007,
+      "essential_positive_depth_matches": 1101,
+      "rotation_compensated_angle_median_deg": 2.4471949968609996,
+      "rotation_compensated_angle_p10_deg": 2.186305943239302,
+      "raw_pixel_motion_median": 35.31215286254883
+    },
+    {
+      "label": "failed_repeat",
+      "session_id": "9631f3ef775d45c8b0ca37970ba2e2e5",
+      "archive_pair_indices": [
+        12,
+        201
+      ],
+      "timestamps": [
+        0.7991267,
+        13.4871934
+      ],
+      "ratio_test_matches": 1380,
+      "homography_inlier_fraction_3px": 0.9268115942028986,
+      "essential_inlier_fraction_1px": 0.913768115942029,
+      "essential_positive_depth_matches": 18,
+      "rotation_compensated_angle_median_deg": 1.1073026038472158,
+      "rotation_compensated_angle_p10_deg": 1.0695902405168862,
+      "raw_pixel_motion_median": 12.441619873046875
+    }
+  ],
+  "note": "Independent OpenCV ORB/RANSAC diagnostic; not the exact SLAM matches or initializer hypotheses. Estimated parallax depends on estimated rotation/calibration; no ground truth. Homography and essential inlier thresholds differ; fractions are not a model selection score."
+}

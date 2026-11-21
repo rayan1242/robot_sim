@@ -1,0 +1,8 @@
+{
+  "source": "Existing saved SLAM trajectory; fresh evaluation, not a SLAM rerun",
+  "associations": 795,
+  "sim3_aligned_ate_rmse_m": 0.010583981662700357,
+  "median_m": 0.00785707374253682,
+  "p95_m": 0.019547960289900752,
+  "alignment_scale": 1.3826860096784102
+}

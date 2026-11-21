@@ -1,0 +1,146 @@
+{
+  "session_id": "79c2df1975674ee6bfce9c3f2bad374f",
+  "session": {
+    "id": "79c2df1975674ee6bfce9c3f2bad374f",
+    "created_at": "2026-11-01T06:47:19.311555+00:00",
+    "name": "Webcam session",
+    "status": "ready",
+    "metadata": {
+      "source": "webcam",
+      "options": {
+        "name": "Webcam session",
+        "camera": 0,
+        "width": 640,
+        "height": 480,
+        "fps": 15.0,
+        "duration": 30.0,
+        "backend": "dshow",
+        "depth": true,
+        "device": "auto",
+        "auto_exposure": true,
+        "depth_width": 160,
+        "depth_height": 120,
+        "deadline_ms": 500,
+        "slam": true
+      },
+      "limitations": [
+        "Experimental live SLAM; initialization/tracking may fail",
+        "Global sparse map plus current local dense preview; historical dense patches are not accumulated",
+        "Arbitrary SLAM units, not meters; fits do not establish independent accuracy"
+      ],
+      "actual_image_size_wh": [
+        640,
+        480
+      ],
+      "actual_device": "cpu",
+      "model": "depth-anything/Depth-Anything-V2-Small-hf",
+      "saved_rgb_frames": 129
+    }
+  },
+  "processed_outputs": 129,
+  "outputs_with_pose": 122,
+  "outputs_with_dense_preview": 66,
+  "first_output_pose_timestamp": 1.0080674999626353,
+  "output_duration_seconds": 29.93636259995401,
+  "fusion_rejections": {
+    "No tracked pose": 7,
+    "Training depth ordering is weak or contradicts sparse geometry (rank correlation <0.3)": 11,
+    "Need >=50 training depth inliers and >=70% support": 39,
+    "Fewer than 70 visible observed landmarks": 3,
+    "Alignment produced a nonpositive inverse-depth scale": 3
+  },
+  "final_map_points": 1308,
+  "final_fusion_state": {
+    "state": "sparse_only",
+    "reason": "Training depth ordering is weak or contradicts sparse geometry (rank correlation <0.3)",
+    "dense_history": "not accumulated; local patch replaced on each update"
+  },
+  "timestamp_pairs_match": true,
+  "timing": {
+    "capture_receipt_to_packet": {
+      "samples": 129,
+      "p50_ms": 487.0465000276454,
+      "p95_ms": 580.9578600106761,
+      "p99_ms": 633.158591997344
+    },
+    "output_interval": {
+      "samples": 128,
+      "p50_ms": 231.00140001042746,
+      "p95_ms": 280.596435003099,
+      "p99_ms": 354.5532699848991
+    },
+    "interval_jitter_abs_deviation_from_median": {
+      "samples": 128,
+      "p50_ms": 12.084150017471984,
+      "p95_ms": 74.37361001502717,
+      "p99_ms": 123.55186997447164
+    },
+    "deadline_ms": 500,
+    "deadline_misses": 57,
+    "skipped_capture_frames": 318,
+    "scope": "Software capture receipt to packet readiness. Excludes sensor buffering and network/browser display."
+  },
+  "stage_distributions": {
+    "capture_to_state": {
+      "samples": 129,
+      "p50_ms": 487.0465000276454,
+      "p95_ms": 580.9578600106761,
+      "p99_ms": 633.158591997344
+    },
+    "fusion_ms": {
+      "samples": 129,
+      "p50_ms": 61.70160003239289,
+      "p95_ms": 85.79566000262275,
+      "p99_ms": 98.08108399389312
+    },
+    "inference_ms": {
+      "samples": 129,
+      "p50_ms": 121.62930000340566,
+      "p95_ms": 156.88368001719937,
+      "p99_ms": 251.1208399827592
+    },
+    "input_age_ms": {
+      "samples": 129,
+      "p50_ms": 254.2132999515161,
+      "p95_ms": 328.1923799891956,
+      "p99_ms": 369.59368800045917
+    },
+    "postprocess_ms": {
+      "samples": 129,
+      "p50_ms": 1.1307999957352877,
+      "p95_ms": 1.9825199851766229,
+      "p99_ms": 2.414291992317885
+    },
+    "preprocess_ms": {
+      "samples": 129,
+      "p50_ms": 2.0898000220768154,
+      "p95_ms": 3.2356999930925663,
+      "p99_ms": 4.894696001429111
+    },
+    "slam_ms": {
+      "samples": 129,
+      "p50_ms": 23.6614,
+      "p95_ms": 35.1877314,
+      "p99_ms": 39.955490399999995
+    },
+    "total_ms": {
+      "samples": 129,
+      "p50_ms": 125.70500001311302,
+      "p95_ms": 159.73073996137828,
+      "p99_ms": 254.4693000172265
+    }
+  },
+  "accepted_view_heldout_means": {
+    "samples": 66,
+    "p50_percent": 8.586141045052855,
+    "p95_percent": 14.385639329455891,
+    "p99_percent": 15.562360837909921
+  },
+  "limitations": [
+    "Pose fraction refers to processed outputs, not all captured frames or independent pose accuracy",
+    "Dense preview fraction measures acceptance, not geometric correctness",
+    "Accepted-view heldout mean distribution is percent, not milliseconds, and is not independent ground truth",
+    "Stage medians do not add to total median; timings overlap where stated",
+    "Only the final map is stored; historical point counts cannot be reconstructed from this session"
+  ]
+}

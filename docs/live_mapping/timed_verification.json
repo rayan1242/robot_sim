@@ -1,0 +1,8 @@
+{
+  "source": "Timed saved RGB, not physical webcam",
+  "worker_outputs": 40,
+  "outputs_with_pose": 24,
+  "outputs_with_dense_preview": 18,
+  "exact_frame_matches": true,
+  "final_map_points": 2371
+}

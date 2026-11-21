@@ -1,0 +1,35 @@
+[
+  {
+    "recording": "1793498327387658500",
+    "input_frames": 150,
+    "duration_seconds": 30.6451422,
+    "live_pose_frames": 0,
+    "live_pose_fraction": 0.0,
+    "first_live_pose_seconds": null,
+    "landmarks": 0,
+    "keyframe_observation_links": 0,
+    "ground_truth": null
+  },
+  {
+    "recording": "1793498363769082900",
+    "input_frames": 449,
+    "duration_seconds": 30.0316396,
+    "live_pose_frames": 36,
+    "live_pose_fraction": 0.0801781737193764,
+    "first_live_pose_seconds": 26.415329,
+    "landmarks": 0,
+    "keyframe_observation_links": 0,
+    "ground_truth": null
+  },
+  {
+    "recording": "1793498406555488000",
+    "input_frames": 449,
+    "duration_seconds": 29.9686297,
+    "live_pose_frames": 299,
+    "live_pose_fraction": 0.6659242761692651,
+    "first_live_pose_seconds": 8.3693767,
+    "landmarks": 866,
+    "keyframe_observation_links": 3219,
+    "ground_truth": null
+  }
+]

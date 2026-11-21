@@ -1,0 +1,388 @@
+{
+  "baseline": {
+    "input_frames": 449,
+    "posed_frames": 385,
+    "posed_fraction": 0.8574610244988864,
+    "first_posed_timestamp": 4.3038196,
+    "keyframes": 9,
+    "landmarks": 734
+  },
+  "strict": {
+    "input_frames": 449,
+    "posed_frames": 341,
+    "posed_fraction": 0.7594654788418709,
+    "first_posed_timestamp": 7.2481429,
+    "keyframes": 7,
+    "landmarks": 551
+  },
+  "strict_audit": {
+    "dataset": "data\\sessions\\818d5311fda343eab93f617e25ea9b71\\slam_input",
+    "slam": "data\\slam_latest_strict_trial",
+    "keyframes": [
+      {
+        "timestamp": 5.6478693,
+        "observation_count": 298,
+        "reprojection_median_px": 0.6775585263642177,
+        "reprojection_p95_px": 2.869220222019382,
+        "exported_pose_max_abs_difference": 0.0,
+        "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+        "distorted_projection_samples": 298,
+        "rgb_timestamp_difference": 0.0,
+        "prediction_inverse_depth_spearman": 0.7167359437566615,
+        "unconstrained_inverse_depth_slope": 0.405175545764242
+      },
+      {
+        "timestamp": 7.2481429,
+        "observation_count": 363,
+        "reprojection_median_px": 0.7133796328010579,
+        "reprojection_p95_px": 2.7163846741882303,
+        "exported_pose_max_abs_difference": 9.15477416096877e-12,
+        "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+        "distorted_projection_samples": 363,
+        "rgb_timestamp_difference": 0.0,
+        "prediction_inverse_depth_spearman": 0.7397810627343526,
+        "unconstrained_inverse_depth_slope": 0.3449447329646186
+      },
+      {
+        "timestamp": 9.2641151,
+        "observation_count": 372,
+        "reprojection_median_px": 0.704710380856368,
+        "reprojection_p95_px": 2.585186834292105,
+        "exported_pose_max_abs_difference": 4.448796886435957e-11,
+        "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+        "distorted_projection_samples": 372,
+        "rgb_timestamp_difference": 0.0,
+        "prediction_inverse_depth_spearman": 0.5797197259685777,
+        "unconstrained_inverse_depth_slope": 0.5471735441761599
+      },
+      {
+        "timestamp": 22.7515449,
+        "observation_count": 334,
+        "reprojection_median_px": 1.0013939252525867,
+        "reprojection_p95_px": 3.185419094526353,
+        "exported_pose_max_abs_difference": 7.247050182179748e-11,
+        "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+        "distorted_projection_samples": 334,
+        "rgb_timestamp_difference": 0.0,
+        "prediction_inverse_depth_spearman": 0.738738756147772,
+        "unconstrained_inverse_depth_slope": 0.4007201915167323
+      },
+      {
+        "timestamp": 25.3126274,
+        "observation_count": 300,
+        "reprojection_median_px": 1.120016285742822,
+        "reprojection_p95_px": 2.854503335241115,
+        "exported_pose_max_abs_difference": 6.561601262333738e-11,
+        "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+        "distorted_projection_samples": 300,
+        "rgb_timestamp_difference": 0.0,
+        "prediction_inverse_depth_spearman": 0.7616472140409624,
+        "unconstrained_inverse_depth_slope": 0.283048842231151
+      },
+      {
+        "timestamp": 28.1277215,
+        "observation_count": 274,
+        "reprojection_median_px": 1.0580593274369048,
+        "reprojection_p95_px": 3.5198737410187206,
+        "exported_pose_max_abs_difference": 1.358888834790406e-10,
+        "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+        "distorted_projection_samples": 274,
+        "rgb_timestamp_difference": 0.0,
+        "prediction_inverse_depth_spearman": 0.7747747143367582,
+        "unconstrained_inverse_depth_slope": 0.4408990601616815
+      },
+      {
+        "timestamp": 29.1358266,
+        "observation_count": 315,
+        "reprojection_median_px": 0.9503771128084204,
+        "reprojection_p95_px": 3.0939438843307814,
+        "exported_pose_max_abs_difference": 1.2114143022046164e-10,
+        "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+        "distorted_projection_samples": 315,
+        "rgb_timestamp_difference": 0.0,
+        "prediction_inverse_depth_spearman": 0.7521567362734821,
+        "unconstrained_inverse_depth_slope": 0.48804858869419
+      }
+    ],
+    "inference_size_wh": [
+      224,
+      168
+    ],
+    "landmark_max_ray_angle_degrees_median": 3.4902023266168385,
+    "landmark_max_ray_angle_degrees_p10": 1.1624077597779479,
+    "pooled_reprojection_median_px": 0.8633131111253209,
+    "pooled_reprojection_p95_px": 2.920713421523641,
+    "note": "Reprojection is internal SLAM consistency, not independent accuracy. Correlations are diagnostics, not used to tune acceptance."
+  },
+  "strict_fusion": {
+    "coordinate_units": "arbitrary monocular SLAM units; not meters",
+    "keyframes": [
+      {
+        "timestamp": 5.6478693,
+        "heldout_samples": 50,
+        "invalid_heldout": 0,
+        "heldout_abs_rel_mean": 0.13655897026380687,
+        "quality": {
+          "training_depth_inliers": 150,
+          "training_depth_inlier_fraction": 0.7425742574257426,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.8530553592084449,
+          "training_hull_image_fraction": 0.4226516125346721,
+          "prediction_support_min": 0.6376870477199554,
+          "prediction_support_max": 4.488018021583557,
+          "dense_supported_pixel_fraction": 0.4222916666666667
+        },
+        "status": "fused",
+        "visible_landmarks": 252,
+        "training_samples": 202,
+        "training_inliers": 154,
+        "inverse_depth_scale": 0.25962352961505164,
+        "inverse_depth_shift": 0.5498887923293878,
+        "dense_points": 3608,
+        "max_depth_slam_units": 2.1001153085348916,
+        "multiview": {
+          "input_points": 3608,
+          "retained_points": 2410,
+          "unsupported_points": 381,
+          "free_space_conflict_points": 929
+        }
+      },
+      {
+        "timestamp": 7.2481429,
+        "heldout_samples": 61,
+        "invalid_heldout": 0,
+        "heldout_abs_rel_mean": 0.09430007470433707,
+        "quality": {
+          "training_depth_inliers": 174,
+          "training_depth_inlier_fraction": 0.710204081632653,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.8131082260973163,
+          "training_hull_image_fraction": 0.4652394669135939,
+          "prediction_support_min": 0.6738914066553116,
+          "prediction_support_max": 4.45701955318451,
+          "dense_supported_pixel_fraction": 0.45729166666666665
+        },
+        "status": "fused",
+        "visible_landmarks": 306,
+        "training_samples": 245,
+        "training_inliers": 180,
+        "inverse_depth_scale": 0.2513421951583779,
+        "inverse_depth_shift": 0.498621012168073,
+        "dense_points": 3892,
+        "max_depth_slam_units": 2.1354528152234784,
+        "multiview": {
+          "input_points": 3892,
+          "retained_points": 2107,
+          "unsupported_points": 1147,
+          "free_space_conflict_points": 765
+        }
+      },
+      {
+        "timestamp": 9.2641151,
+        "heldout_samples": 62,
+        "invalid_heldout": 0,
+        "heldout_abs_rel_mean": 0.09782461156441319,
+        "quality": {
+          "training_depth_inliers": 189,
+          "training_depth_inlier_fraction": 0.75,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7547397460787381,
+          "training_hull_image_fraction": 0.45106945896682316,
+          "prediction_support_min": 0.8203910326957703,
+          "prediction_support_max": 5.2826420593261725,
+          "dense_supported_pixel_fraction": 0.39734375
+        },
+        "status": "fused",
+        "visible_landmarks": 314,
+        "training_samples": 252,
+        "training_inliers": 184,
+        "inverse_depth_scale": 0.2231352625525472,
+        "inverse_depth_shift": 0.6256217722152484,
+        "dense_points": 3392,
+        "max_depth_slam_units": 2.12630035676097,
+        "multiview": {
+          "input_points": 3392,
+          "retained_points": 2118,
+          "unsupported_points": 263,
+          "free_space_conflict_points": 1198
+        }
+      },
+      {
+        "timestamp": 22.7515449,
+        "heldout_samples": 54,
+        "invalid_heldout": 0,
+        "heldout_abs_rel_mean": 0.08746208988239147,
+        "quality": {
+          "training_depth_inliers": 188,
+          "training_depth_inlier_fraction": 0.8545454545454545,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7822644720307895,
+          "training_hull_image_fraction": 0.4150163678468775,
+          "prediction_support_min": 0.42691166639328004,
+          "prediction_support_max": 3.089997322559356,
+          "dense_supported_pixel_fraction": 0.3709635416666667
+        },
+        "status": "fused",
+        "visible_landmarks": 274,
+        "training_samples": 220,
+        "training_inliers": 190,
+        "inverse_depth_scale": 0.33821623615886076,
+        "inverse_depth_shift": 0.5662096984496481,
+        "dense_points": 3163,
+        "max_depth_slam_units": 2.146491369452704,
+        "multiview": {
+          "input_points": 3163,
+          "retained_points": 2814,
+          "unsupported_points": 49,
+          "free_space_conflict_points": 315
+        }
+      },
+      {
+        "timestamp": 25.3126274,
+        "heldout_samples": 48,
+        "invalid_heldout": 0,
+        "heldout_abs_rel_mean": 0.04496673988525629,
+        "quality": {
+          "training_depth_inliers": 178,
+          "training_depth_inlier_fraction": 0.9081632653061225,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.8143948872012686,
+          "training_hull_image_fraction": 0.45151343097256574,
+          "prediction_support_min": 0.4260199758410454,
+          "prediction_support_max": 3.1174703288078307,
+          "dense_supported_pixel_fraction": 0.4395572916666667
+        },
+        "status": "fused",
+        "visible_landmarks": 244,
+        "training_samples": 196,
+        "training_inliers": 180,
+        "inverse_depth_scale": 0.3684924042544675,
+        "inverse_depth_shift": 0.5487135280568604,
+        "dense_points": 3750,
+        "max_depth_slam_units": 2.1253798584644064,
+        "multiview": {
+          "input_points": 3750,
+          "retained_points": 2247,
+          "unsupported_points": 1348,
+          "free_space_conflict_points": 206
+        }
+      },
+      {
+        "timestamp": 28.1277215,
+        "heldout_samples": 46,
+        "invalid_heldout": 0,
+        "heldout_abs_rel_mean": 0.08299357955889498,
+        "quality": {
+          "training_depth_inliers": 160,
+          "training_depth_inlier_fraction": 0.8602150537634409,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7225312253775251,
+          "training_hull_image_fraction": 0.448602648748289,
+          "prediction_support_min": 0.39491458237171173,
+          "prediction_support_max": 3.2919420814514155,
+          "dense_supported_pixel_fraction": 0.4414973958333333
+        },
+        "status": "fused",
+        "visible_landmarks": 232,
+        "training_samples": 186,
+        "training_inliers": 159,
+        "inverse_depth_scale": 0.3454450135268414,
+        "inverse_depth_shift": 0.5505498821179731,
+        "dense_points": 3764,
+        "max_depth_slam_units": 2.1143417468563643,
+        "multiview": {
+          "input_points": 3764,
+          "retained_points": 2408,
+          "unsupported_points": 604,
+          "free_space_conflict_points": 793
+        }
+      },
+      {
+        "timestamp": 29.1358266,
+        "heldout_samples": 52,
+        "invalid_heldout": 0,
+        "heldout_abs_rel_mean": 0.07924530052995649,
+        "quality": {
+          "training_depth_inliers": 173,
+          "training_depth_inlier_fraction": 0.8317307692307693,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7075405525062275,
+          "training_hull_image_fraction": 0.4438417865869289,
+          "prediction_support_min": 0.3310443615913391,
+          "prediction_support_max": 2.5218491744995117,
+          "dense_supported_pixel_fraction": 0.438203125
+        },
+        "status": "fused",
+        "visible_landmarks": 260,
+        "training_samples": 208,
+        "training_inliers": 173,
+        "inverse_depth_scale": 0.3642702551001767,
+        "inverse_depth_shift": 0.5960446219064802,
+        "dense_points": 3747,
+        "max_depth_slam_units": 2.1219383143967656,
+        "multiview": {
+          "input_points": 3747,
+          "retained_points": 2966,
+          "unsupported_points": 640,
+          "free_space_conflict_points": 158
+        }
+      }
+    ],
+    "source_timestamp_interval": [
+      null,
+      null
+    ],
+    "dataset": "data\\sessions\\818d5311fda343eab93f617e25ea9b71\\slam_input",
+    "slam_export": "data\\slam_latest_strict_trial",
+    "calibration": "data\\calibration.npz",
+    "calibrated_size_wh": [
+      640,
+      480
+    ],
+    "inference_size_wh": [
+      320,
+      240
+    ],
+    "resized_camera_matrix": [
+      [
+        475.9815800373334,
+        0.0,
+        161.25333049348902
+      ],
+      [
+        0.0,
+        475.90706150190704,
+        123.32200284578774
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "distortion_coefficients": [
+      [
+        0.07606089941071717,
+        0.4798573276873785,
+        0.002096603438651915,
+        0.0021557731888565187,
+        -3.2458749815613355
+      ]
+    ],
+    "fused_keyframes": 7,
+    "heldout_valid_samples": 373,
+    "quality_checks": true,
+    "multiview_checks": true,
+    "multiview_policy": "At least one other supported view, >=1 degree ray angle, <=10% z-depth disagreement, no observed free-space conflict; occlusions give no support",
+    "quality_policy": "training rank correlation >=0.3; depth support >=70% and >=50 points; hull >=5% image; dense pixels inside training hull and 1st-99th prediction percentiles",
+    "all_fit_heldout_samples": 373,
+    "all_fit_heldout_abs_rel_mean": 0.08971902317039374,
+    "heldout_abs_rel_mean": 0.08971902317039374,
+    "heldout_abs_rel_median": 0.06542861464906245,
+    "evaluation_note": "Held-out SLAM points are not independent sensor ground truth; errors evaluate per-view alignments BEFORE multiview dense filtering, not final map accuracy; invalid held-out predictions counted per keyframe",
+    "voxel_size_slam_units": 0.02,
+    "depth_model": "depth-anything/Depth-Anything-V2-Small-hf",
+    "occupancy_grid": "deferred: no known ground plane or metric scale",
+    "map_points": 3222
+  }
+}

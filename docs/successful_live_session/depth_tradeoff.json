@@ -1,0 +1,322 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+  "torch_threads": 4,
+  "dataset": "data\\sessions\\79c2df1975674ee6bfce9c3f2bad374f\\slam_input",
+  "slam": "data\\sessions\\79c2df1975674ee6bfce9c3f2bad374f\\slam_input",
+  "selected_views": 5,
+  "repeats": 3,
+  "model": "depth-anything/Depth-Anything-V2-Small-hf",
+  "device": "cpu",
+  "precision": "fp32",
+  "cases": {
+    "160": {
+      "input_size_wh": [
+        160,
+        120
+      ],
+      "invalid_heldout": 0,
+      "failed_fits": 0,
+      "per_view": [
+        {
+          "timestamp": 0.8000508,
+          "status": "supported",
+          "quality": {
+            "training_depth_inliers": 266,
+            "training_depth_inlier_fraction": 0.8896321070234113,
+            "acceptance_basis": "training correspondences only",
+            "training_inverse_depth_rank_correlation": 0.5481053175012907,
+            "training_hull_image_fraction": 0.48556430719647264,
+            "prediction_support_min": 1.212782049179077,
+            "prediction_support_max": 2.5891195178031925,
+            "dense_supported_pixel_fraction": 0.4672395833333333
+          },
+          "heldout_valid": 74,
+          "heldout_invalid": 0,
+          "heldout_abs_rel_mean": 0.05348198436156627
+        },
+        {
+          "timestamp": 3.4248448,
+          "status": "supported",
+          "quality": {
+            "training_depth_inliers": 55,
+            "training_depth_inlier_fraction": 0.8208955223880597,
+            "acceptance_basis": "training correspondences only",
+            "training_inverse_depth_rank_correlation": 0.39061377603958825,
+            "training_hull_image_fraction": 0.26267476637366294,
+            "prediction_support_min": 1.2978026819229127,
+            "prediction_support_max": 2.263502292633057,
+            "dense_supported_pixel_fraction": 0.2654166666666667
+          },
+          "heldout_valid": 16,
+          "heldout_invalid": 0,
+          "heldout_abs_rel_mean": 0.11374673689552706
+        },
+        {
+          "timestamp": 10.5431244,
+          "status": "quality_rejected",
+          "quality": {
+            "training_depth_inliers": 263,
+            "training_depth_inlier_fraction": 0.6306954436450839,
+            "acceptance_basis": "training correspondences only",
+            "training_inverse_depth_rank_correlation": 0.8563044301400985,
+            "rejection": "Need >=50 training depth inliers and >=70% support"
+          },
+          "heldout_valid": 104,
+          "heldout_invalid": 0,
+          "heldout_abs_rel_mean": 0.1563357574250887
+        },
+        {
+          "timestamp": 18.0485029,
+          "status": "quality_rejected",
+          "quality": {
+            "training_depth_inliers": 211,
+            "training_depth_inlier_fraction": 0.6872964169381107,
+            "acceptance_basis": "training correspondences only",
+            "training_inverse_depth_rank_correlation": 0.6695926223613521,
+            "rejection": "Need >=50 training depth inliers and >=70% support"
+          },
+          "heldout_valid": 76,
+          "heldout_invalid": 0,
+          "heldout_abs_rel_mean": 0.16751613270285304
+        },
+        {
+          "timestamp": 29.7917345,
+          "status": "supported",
+          "quality": {
+            "training_depth_inliers": 308,
+            "training_depth_inlier_fraction": 0.7938144329896907,
+            "acceptance_basis": "training correspondences only",
+            "training_inverse_depth_rank_correlation": 0.4112426418427149,
+            "training_hull_image_fraction": 0.49108574631298213,
+            "prediction_support_min": 1.4856641626358031,
+            "prediction_support_max": 1.8081652557849885,
+            "dense_supported_pixel_fraction": 0.49484375
+          },
+          "heldout_valid": 97,
+          "heldout_invalid": 0,
+          "heldout_abs_rel_mean": 0.0836281763998156
+        }
+      ],
+      "quality_rejections": 2,
+      "processing": {
+        "samples": 15,
+        "p50_ms": 85.19489999162033,
+        "p95_ms": 90.2743999962695,
+        "p99_ms": 93.4378400282003
+      },
+      "heldout_samples": 367,
+      "heldout_abs_rel_mean": 0.11683839945910764
+    },
+    "224": {
+      "input_size_wh": [
+        224,
+        168
+      ],
+      "invalid_heldout": 0,
+      "failed_fits": 0,
+      "per_view": [
+        {
+          "timestamp": 0.8000508,
+          "status": "supported",
+          "quality": {
+            "training_depth_inliers": 258,
+            "training_depth_inlier_fraction": 0.862876254180602,
+            "acceptance_basis": "training correspondences only",
+            "training_inverse_depth_rank_correlation": 0.5197557855042535,
+            "training_hull_image_fraction": 0.48067046632864985,
+            "prediction_support_min": 1.034247972369194,
+            "prediction_support_max": 2.557546846866608,
+            "dense_supported_pixel_fraction": 0.4078178146258503
+          },
+          "heldout_valid": 74,
+          "heldout_invalid": 0,
+          "heldout_abs_rel_mean": 0.06691321351516266
+        },
+        {
+          "timestamp": 3.4248448,
+          "status": "supported",
+          "quality": {
+            "training_depth_inliers": 58,
+            "training_depth_inlier_fraction": 0.8656716417910447,
+            "acceptance_basis": "training correspondences only",
+            "training_inverse_depth_rank_correlation": 0.5615372336180063,
+            "training_hull_image_fraction": 0.26267474892118386,
+            "prediction_support_min": 1.1221572905778885,
+            "prediction_support_max": 3.050868172645569,
+            "dense_supported_pixel_fraction": 0.2547300170068027
+          },
+          "heldout_valid": 16,
+          "heldout_invalid": 0,
+          "heldout_abs_rel_mean": 0.11395458610136643
+        },
+        {
+          "timestamp": 10.5431244,
+          "status": "supported",
+          "quality": {
+            "training_depth_inliers": 367,
+            "training_depth_inlier_fraction": 0.8800959232613909,
+            "acceptance_basis": "training correspondences only",
+            "training_inverse_depth_rank_correlation": 0.8226308905029087,
+            "training_hull_image_fraction": 0.5776026438362757,
+            "prediction_support_min": 0.7277951753139495,
+            "prediction_support_max": 3.0764900875091516,
+            "dense_supported_pixel_fraction": 0.5447225765306123
+          },
+          "heldout_valid": 104,
+          "heldout_invalid": 0,
+          "heldout_abs_rel_mean": 0.06450601058054814
+        },
+        {
+          "timestamp": 18.0485029,
+          "status": "supported",
+          "quality": {
+            "training_depth_inliers": 236,
+            "training_depth_inlier_fraction": 0.7687296416938111,
+            "acceptance_basis": "training correspondences only",
+            "training_inverse_depth_rank_correlation": 0.7133231142619915,
+            "training_hull_image_fraction": 0.47159408773930833,
+            "prediction_support_min": 1.5599513709545136,
+            "prediction_support_max": 2.7403024792671205,
+            "dense_supported_pixel_fraction": 0.3313137755102041
+          },
+          "heldout_valid": 76,
+          "heldout_invalid": 0,
+          "heldout_abs_rel_mean": 0.13916383086527204
+        },
+        {
+          "timestamp": 29.7917345,
+          "status": "supported",
+          "quality": {
+            "training_depth_inliers": 338,
+            "training_depth_inlier_fraction": 0.8711340206185567,
+            "acceptance_basis": "training correspondences only",
+            "training_inverse_depth_rank_correlation": 0.689864135129799,
+            "training_hull_image_fraction": 0.5333663125473621,
+            "prediction_support_min": 0.9788059109449386,
+            "prediction_support_max": 2.934722707271576,
+            "dense_supported_pixel_fraction": 0.4921875
+          },
+          "heldout_valid": 97,
+          "heldout_invalid": 0,
+          "heldout_abs_rel_mean": 0.0730310642206207
+        }
+      ],
+      "quality_rejections": 0,
+      "processing": {
+        "samples": 15,
+        "p50_ms": 148.95220001926646,
+        "p95_ms": 159.0285500162281,
+        "p99_ms": 160.67187001230195
+      },
+      "heldout_samples": 367,
+      "heldout_abs_rel_mean": 0.08486087371466429
+    },
+    "320": {
+      "input_size_wh": [
+        320,
+        240
+      ],
+      "invalid_heldout": 0,
+      "failed_fits": 0,
+      "per_view": [
+        {
+          "timestamp": 0.8000508,
+          "status": "supported",
+          "quality": {
+            "training_depth_inliers": 278,
+            "training_depth_inlier_fraction": 0.9297658862876255,
+            "acceptance_basis": "training correspondences only",
+            "training_inverse_depth_rank_correlation": 0.7508953783304527,
+            "training_hull_image_fraction": 0.49362983054239484,
+            "prediction_support_min": 1.1547932136058807,
+            "prediction_support_max": 4.642683973312378,
+            "dense_supported_pixel_fraction": 0.46795572916666667
+          },
+          "heldout_valid": 74,
+          "heldout_invalid": 0,
+          "heldout_abs_rel_mean": 0.03799155772425331
+        },
+        {
+          "timestamp": 3.4248448,
+          "status": "supported",
+          "quality": {
+            "training_depth_inliers": 61,
+            "training_depth_inlier_fraction": 0.9104477611940298,
+            "acceptance_basis": "training correspondences only",
+            "training_inverse_depth_rank_correlation": 0.6921142948359806,
+            "training_hull_image_fraction": 0.28667496599276393,
+            "prediction_support_min": 1.4737313747406007,
+            "prediction_support_max": 3.0128838062286376,
+            "dense_supported_pixel_fraction": 0.25037760416666666
+          },
+          "heldout_valid": 16,
+          "heldout_invalid": 0,
+          "heldout_abs_rel_mean": 0.09756038882112071
+        },
+        {
+          "timestamp": 10.5431244,
+          "status": "supported",
+          "quality": {
+            "training_depth_inliers": 334,
+            "training_depth_inlier_fraction": 0.8009592326139089,
+            "acceptance_basis": "training correspondences only",
+            "training_inverse_depth_rank_correlation": 0.8879033688764851,
+            "training_hull_image_fraction": 0.585431898027109,
+            "prediction_support_min": 1.2451243662834168,
+            "prediction_support_max": 3.8248816919326782,
+            "dense_supported_pixel_fraction": 0.5558723958333334
+          },
+          "heldout_valid": 104,
+          "heldout_invalid": 0,
+          "heldout_abs_rel_mean": 0.1155031767149671
+        },
+        {
+          "timestamp": 18.0485029,
+          "status": "supported",
+          "quality": {
+            "training_depth_inliers": 243,
+            "training_depth_inlier_fraction": 0.7915309446254072,
+            "acceptance_basis": "training correspondences only",
+            "training_inverse_depth_rank_correlation": 0.6178320306505782,
+            "training_hull_image_fraction": 0.5360197935964798,
+            "prediction_support_min": 1.689801776409149,
+            "prediction_support_max": 3.7136005353927612,
+            "dense_supported_pixel_fraction": 0.3629427083333333
+          },
+          "heldout_valid": 76,
+          "heldout_invalid": 0,
+          "heldout_abs_rel_mean": 0.11280106986757887
+        },
+        {
+          "timestamp": 29.7917345,
+          "status": "supported",
+          "quality": {
+            "training_depth_inliers": 352,
+            "training_depth_inlier_fraction": 0.9072164948453608,
+            "acceptance_basis": "training correspondences only",
+            "training_inverse_depth_rank_correlation": 0.8680516735602684,
+            "training_hull_image_fraction": 0.5645521448903591,
+            "prediction_support_min": 1.5278921556472778,
+            "prediction_support_max": 3.2774385809898376,
+            "dense_supported_pixel_fraction": 0.5000130208333333
+          },
+          "heldout_valid": 97,
+          "heldout_invalid": 0,
+          "heldout_abs_rel_mean": 0.049896542006492364
+        }
+      ],
+      "quality_rejections": 0,
+      "processing": {
+        "samples": 15,
+        "p50_ms": 303.03420004202053,
+        "p95_ms": 379.2205699835903,
+        "p99_ms": 443.9789139688946
+      },
+      "heldout_samples": 367,
+      "heldout_abs_rel_mean": 0.08119214647317441
+    }
+  },
+  "scope": "15 timing samples per size: 5 identical saved keyframes repeated 3 times, rotating variant order; one warmup per size excluded. Model predict timing excludes disk, explicit input resize, capture, network and browser. Mean agreement includes all fitted views, including quality-rejected views.",
+  "quality_note": "Same per-view sparse train/test samples at each size, no thresholds tuned. SLAM agreement is not independent accuracy. Repeated images do not add independent quality samples. Small selected scene; not a generalization benchmark. Background load and power mode uncontrolled."
+}

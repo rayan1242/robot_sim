@@ -1,0 +1,201 @@
+{
+  "session": "93601a495a6147a88e625fa1f03345c9",
+  "retained_keyframes": 8,
+  "selected_keyframes_before_depth_acceptance": 4,
+  "depth_supported_views": 0,
+  "selection": [
+    {
+      "timestamp": 0.7987069,
+      "sharpness_laplacian_variance": 849.4097746032716,
+      "status": "seed_needs_cross_view_support"
+    },
+    {
+      "timestamp": 3.9346252,
+      "sharpness_laplacian_variance": 936.9397904703774,
+      "geometry": {
+        "first_timestamp": 0.7987069,
+        "second_timestamp": 3.9346252,
+        "shared_landmarks": 222,
+        "shared_fraction_of_smaller_view": 0.8844621513944223,
+        "median_ray_angle_deg": 0.7008843525636019,
+        "fraction_shared_points_below_one_degree": 0.9864864864864865
+      },
+      "status": "insufficient_shared_baseline"
+    },
+    {
+      "timestamp": 8.1267304,
+      "sharpness_laplacian_variance": 1025.9369219751993,
+      "geometry": {
+        "first_timestamp": 0.7987069,
+        "second_timestamp": 8.1267304,
+        "shared_landmarks": 202,
+        "shared_fraction_of_smaller_view": 0.8047808764940239,
+        "median_ray_angle_deg": 0.33010749971143427,
+        "fraction_shared_points_below_one_degree": 0.995049504950495
+      },
+      "status": "insufficient_shared_baseline"
+    },
+    {
+      "timestamp": 17.4702831,
+      "sharpness_laplacian_variance": 1190.9265991616141,
+      "geometry": {
+        "first_timestamp": 0.7987069,
+        "second_timestamp": 17.4702831,
+        "shared_landmarks": 148,
+        "shared_fraction_of_smaller_view": 0.5896414342629482,
+        "median_ray_angle_deg": 0.29885444473406775,
+        "fraction_shared_points_below_one_degree": 1.0
+      },
+      "status": "insufficient_shared_baseline"
+    },
+    {
+      "timestamp": 19.5344367,
+      "sharpness_laplacian_variance": 1174.0808725016275,
+      "geometry": {
+        "first_timestamp": 0.7987069,
+        "second_timestamp": 19.5344367,
+        "shared_landmarks": 131,
+        "shared_fraction_of_smaller_view": 0.5219123505976095,
+        "median_ray_angle_deg": 1.03189619035982,
+        "fraction_shared_points_below_one_degree": 0.35877862595419846
+      },
+      "status": "selected"
+    },
+    {
+      "timestamp": 26.7981473,
+      "sharpness_laplacian_variance": 1219.2331356999712,
+      "geometry": {
+        "first_timestamp": 19.5344367,
+        "second_timestamp": 26.7981473,
+        "shared_landmarks": 610,
+        "shared_fraction_of_smaller_view": 0.8232118758434548,
+        "median_ray_angle_deg": 2.2706519382169397,
+        "fraction_shared_points_below_one_degree": 0.0
+      },
+      "status": "selected"
+    },
+    {
+      "timestamp": 28.3985853,
+      "sharpness_laplacian_variance": 1322.1787360594005,
+      "geometry": {
+        "first_timestamp": 26.7981473,
+        "second_timestamp": 28.3985853,
+        "shared_landmarks": 593,
+        "shared_fraction_of_smaller_view": 0.7917222963951935,
+        "median_ray_angle_deg": 0.8826132819532849,
+        "fraction_shared_points_below_one_degree": 0.9021922428330523
+      },
+      "status": "insufficient_shared_baseline"
+    },
+    {
+      "timestamp": 29.4058582,
+      "sharpness_laplacian_variance": 1308.4797692708335,
+      "geometry": {
+        "first_timestamp": 26.7981473,
+        "second_timestamp": 29.4058582,
+        "shared_landmarks": 589,
+        "shared_fraction_of_smaller_view": 0.7948717948717948,
+        "median_ray_angle_deg": 1.138535967405391,
+        "fraction_shared_points_below_one_degree": 0.2801358234295416
+      },
+      "status": "selected"
+    }
+  ],
+  "per_view": [
+    {
+      "timestamp": 0.7987069,
+      "visible_landmarks": 206,
+      "status": "fit_failed",
+      "reason": "Alignment produced a nonpositive inverse-depth scale"
+    },
+    {
+      "timestamp": 3.9346252,
+      "visible_landmarks": 403,
+      "status": "fit_failed",
+      "reason": "Alignment produced a nonpositive inverse-depth scale"
+    },
+    {
+      "timestamp": 8.1267304,
+      "visible_landmarks": 570,
+      "status": "fit_failed",
+      "reason": "Alignment produced a nonpositive inverse-depth scale"
+    },
+    {
+      "timestamp": 17.4702831,
+      "visible_landmarks": 603,
+      "status": "fit_failed",
+      "reason": "Alignment produced a nonpositive inverse-depth scale"
+    },
+    {
+      "timestamp": 19.5344367,
+      "visible_landmarks": 564,
+      "status": "fit_failed",
+      "reason": "Alignment produced a nonpositive inverse-depth scale"
+    },
+    {
+      "timestamp": 26.7981473,
+      "visible_landmarks": 575,
+      "status": "fit_failed",
+      "reason": "Alignment produced a nonpositive inverse-depth scale"
+    },
+    {
+      "timestamp": 28.3985853,
+      "visible_landmarks": 555,
+      "status": "fit_failed",
+      "reason": "Alignment produced a nonpositive inverse-depth scale"
+    },
+    {
+      "timestamp": 29.4058582,
+      "visible_landmarks": 551,
+      "status": "fit_failed",
+      "reason": "Alignment produced a nonpositive inverse-depth scale"
+    }
+  ],
+  "variants": {
+    "all": {
+      "selected_supported_views": 0,
+      "views_with_output_points": 0,
+      "candidate_points": 0,
+      "points_before_voxelization": 0,
+      "retained_candidate_fraction": null,
+      "heldout_valid_before_cross_view": 0,
+      "heldout_abs_rel_mean_before_cross_view": null,
+      "cross_view_checks": [],
+      "voxelized_points": 0
+    },
+    "selected": {
+      "selected_supported_views": 0,
+      "views_with_output_points": 0,
+      "candidate_points": 0,
+      "points_before_voxelization": 0,
+      "retained_candidate_fraction": null,
+      "heldout_valid_before_cross_view": 0,
+      "heldout_abs_rel_mean_before_cross_view": null,
+      "cross_view_checks": [],
+      "voxelized_points": 0
+    },
+    "all_multiview": {
+      "selected_supported_views": 0,
+      "views_with_output_points": 0,
+      "candidate_points": 0,
+      "points_before_voxelization": 0,
+      "retained_candidate_fraction": null,
+      "heldout_valid_before_cross_view": 0,
+      "heldout_abs_rel_mean_before_cross_view": null,
+      "cross_view_checks": [],
+      "voxelized_points": 0
+    },
+    "selected_multiview": {
+      "selected_supported_views": 0,
+      "views_with_output_points": 0,
+      "candidate_points": 0,
+      "points_before_voxelization": 0,
+      "retained_candidate_fraction": null,
+      "heldout_valid_before_cross_view": 0,
+      "heldout_abs_rel_mean_before_cross_view": null,
+      "cross_view_checks": [],
+      "voxelized_points": 0
+    }
+  },
+  "note": "All variants reuse identical per-view predictions, fits and train/test splits. Selection never uses depth errors. Cross-view filtering changes coverage, not those depth estimates."
+}

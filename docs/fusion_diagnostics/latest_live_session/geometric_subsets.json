@@ -1,0 +1,245 @@
+{
+  "views": [
+    {
+      "timestamp": 4.0325306,
+      "subsets": [
+        {
+          "min_estimated_max_ray_angle_degrees": 0,
+          "samples": 380,
+          "rank_correlation": -0.7115663069543053
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 1,
+          "samples": 275,
+          "rank_correlation": -0.5939355471567468
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 2,
+          "samples": 220,
+          "rank_correlation": -0.5631912004192423
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 3,
+          "samples": 212,
+          "rank_correlation": -0.5620225871008938
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 5,
+          "samples": 150,
+          "rank_correlation": -0.32537801680074674
+        }
+      ]
+    },
+    {
+      "timestamp": 4.2243552,
+      "subsets": [
+        {
+          "min_estimated_max_ray_angle_degrees": 0,
+          "samples": 382,
+          "rank_correlation": -0.6115230821906971
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 1,
+          "samples": 283,
+          "rank_correlation": -0.5229067813391135
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 2,
+          "samples": 218,
+          "rank_correlation": -0.5040612879480664
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 3,
+          "samples": 211,
+          "rank_correlation": -0.5080722014281883
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 5,
+          "samples": 151,
+          "rank_correlation": -0.3454932032066922
+        }
+      ]
+    },
+    {
+      "timestamp": 5.2318991,
+      "subsets": [
+        {
+          "min_estimated_max_ray_angle_degrees": 0,
+          "samples": 415,
+          "rank_correlation": -0.5466016238868517
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 1,
+          "samples": 327,
+          "rank_correlation": -0.4814073638850871
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 2,
+          "samples": 257,
+          "rank_correlation": -0.5011332402045063
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 3,
+          "samples": 247,
+          "rank_correlation": -0.511282518467081
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 5,
+          "samples": 182,
+          "rank_correlation": -0.32824805843554145
+        }
+      ]
+    },
+    {
+      "timestamp": 7.2481429,
+      "subsets": [
+        {
+          "min_estimated_max_ray_angle_degrees": 0,
+          "samples": 445,
+          "rank_correlation": -0.7555626216229834
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 1,
+          "samples": 378,
+          "rank_correlation": -0.6374596198088146
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 2,
+          "samples": 302,
+          "rank_correlation": -0.632059419446598
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 3,
+          "samples": 293,
+          "rank_correlation": -0.6390944801876991
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 5,
+          "samples": 226,
+          "rank_correlation": -0.5488040752147414
+        }
+      ]
+    },
+    {
+      "timestamp": 11.2797574,
+      "subsets": [
+        {
+          "min_estimated_max_ray_angle_degrees": 0,
+          "samples": 403,
+          "rank_correlation": -0.6861584884461557
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 1,
+          "samples": 392,
+          "rank_correlation": -0.6949824071679782
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 2,
+          "samples": 357,
+          "rank_correlation": -0.6744442551359884
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 3,
+          "samples": 348,
+          "rank_correlation": -0.6660910191296265
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 5,
+          "samples": 276,
+          "rank_correlation": -0.607862330731582
+        }
+      ]
+    },
+    {
+      "timestamp": 14.3040049,
+      "subsets": [
+        {
+          "min_estimated_max_ray_angle_degrees": 0,
+          "samples": 402,
+          "rank_correlation": -0.7557194011748525
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 1,
+          "samples": 388,
+          "rank_correlation": -0.7693845187637246
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 2,
+          "samples": 375,
+          "rank_correlation": -0.79472954829901
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 3,
+          "samples": 368,
+          "rank_correlation": -0.7835870311670775
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 5,
+          "samples": 280,
+          "rank_correlation": -0.7715040097085786
+        }
+      ]
+    },
+    {
+      "timestamp": 27.9196931,
+      "subsets": [
+        {
+          "min_estimated_max_ray_angle_degrees": 0,
+          "samples": 352,
+          "rank_correlation": -0.683109469828315
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 1,
+          "samples": 306,
+          "rank_correlation": -0.7265347952609931
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 2,
+          "samples": 306,
+          "rank_correlation": -0.7265347952609931
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 3,
+          "samples": 303,
+          "rank_correlation": -0.7186846158798749
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 5,
+          "samples": 242,
+          "rank_correlation": -0.6773351261335425
+        }
+      ]
+    },
+    {
+      "timestamp": 29.9356811,
+      "subsets": [
+        {
+          "min_estimated_max_ray_angle_degrees": 0,
+          "samples": 328,
+          "rank_correlation": -0.6344902025580332
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 1,
+          "samples": 283,
+          "rank_correlation": -0.7086739094955737
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 2,
+          "samples": 283,
+          "rank_correlation": -0.7086739094955737
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 3,
+          "samples": 281,
+          "rank_correlation": -0.7028876330311415
+        },
+        {
+          "min_estimated_max_ray_angle_degrees": 5,
+          "samples": 235,
+          "rank_correlation": -0.7181042280655753
+        }
+      ]
+    }
+  ],
+  "note": "Fixed diagnostic subsets only; no fit or held-out threshold tuning. Ray angles derive from estimated final SLAM geometry, not ground truth. Correlation needs at least 10 varied samples. Missing angle support receives zero."
+}

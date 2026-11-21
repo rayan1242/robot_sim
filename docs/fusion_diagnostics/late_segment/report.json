@@ -1,0 +1,40 @@
+{
+  "interval_seconds": [
+    24.0,
+    26.0
+  ],
+  "available_pose_frames": 30,
+  "input_frames": 30,
+  "fused_keyframes": 2,
+  "shared_landmark_neighbor_ray_angle_median_degrees": 0.263591956366925,
+  "neighbor_landmark_pairs": 63,
+  "pairs": [
+    {
+      "projected_samples": 1143,
+      "valid_samples": 1060,
+      "depth_abs_rel_median": 0.026783356257157526,
+      "depth_abs_rel_p90": 0.10008949985507527,
+      "fraction_within_10_percent": 0.9,
+      "rgb_transfer_mean_abs_error_0_255": 14.084717103970124,
+      "source_timestamp": 24.2869457,
+      "target_timestamp": 25.7586353
+    },
+    {
+      "projected_samples": 1208,
+      "valid_samples": 1115,
+      "depth_abs_rel_median": 0.026445324693747142,
+      "depth_abs_rel_p90": 0.11096750520554352,
+      "fraction_within_10_percent": 0.873542600896861,
+      "rgb_transfer_mean_abs_error_0_255": 13.381302258501494,
+      "source_timestamp": 25.7586353,
+      "target_timestamp": 24.2869457
+    }
+  ],
+  "limitations": [
+    "Uses saved optimized poses and existing fits; no new fitting or threshold tuning",
+    "Range-limited depth support; not the training convex-hull mask",
+    "Pair errors include occlusions and view-dependent predictions; they are not independent accuracy",
+    "Photometric error includes exposure changes and occlusion; not an isolated pose test",
+    "Internal landmark ray angles are estimates, not measured physical baselines"
+  ]
+}

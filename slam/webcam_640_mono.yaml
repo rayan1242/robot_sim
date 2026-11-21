@@ -1,0 +1,31 @@
+# Webcam calibration from data/calibration.npz; translation scale remains arbitrary.
+Camera:
+  name: USB webcam 640x480
+  setup: monocular
+  model: perspective
+  fx: 951.963160075
+  fy: 951.814123004
+  cx: 323.006660987
+  cy: 247.144005692
+  k1: 0.0760608994107
+  k2: 0.479857327687
+  p1: 0.00209660343865
+  p2: 0.00215577318886
+  k3: -3.24587498156
+  fps: 15.599091
+  cols: 640
+  rows: 480
+  color_order: BGR
+Preprocessing:
+  min_size: 480
+Feature:
+  name: ORB
+  scale_factor: 1.2
+  num_levels: 8
+  ini_fast_threshold: 20
+  min_fast_threshold: 7
+Mapping:
+  baseline_dist_thr_ratio: 0.02
+  redundant_obs_ratio_thr: 0.9
+  num_covisibilities_for_landmark_generation: 20
+  num_covisibilities_for_landmark_fusion: 20

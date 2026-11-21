@@ -1,0 +1,87 @@
+{
+  "dataset": "data\\sessions\\1fbb44b27fc94a4daf7afc48883dc708\\slam_input",
+  "slam": "data\\sessions\\1fbb44b27fc94a4daf7afc48883dc708\\slam_input",
+  "keyframes": [
+    {
+      "timestamp": 0.799767,
+      "observation_count": 372,
+      "reprojection_median_px": 0.4171475445520673,
+      "reprojection_p95_px": 1.6590480230267268,
+      "exported_pose_max_abs_difference": 0.0,
+      "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+      "distorted_projection_samples": 372,
+      "rgb_timestamp_difference": 0.0,
+      "prediction_inverse_depth_spearman": 0.7509153971991374,
+      "unconstrained_inverse_depth_slope": 0.3995746895031342
+    },
+    {
+      "timestamp": 14.367142,
+      "observation_count": 355,
+      "reprojection_median_px": 0.5656349031073141,
+      "reprojection_p95_px": 1.7897573270783742,
+      "exported_pose_max_abs_difference": 3.139027579535103e-11,
+      "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+      "distorted_projection_samples": 355,
+      "rgb_timestamp_difference": 0.0,
+      "prediction_inverse_depth_spearman": 0.7472091665443464,
+      "unconstrained_inverse_depth_slope": 0.5592232790911442
+    },
+    {
+      "timestamp": 15.4389713,
+      "observation_count": 330,
+      "reprojection_median_px": 0.6034968847663722,
+      "reprojection_p95_px": 2.109623508801221,
+      "exported_pose_max_abs_difference": 6.01969273039682e-11,
+      "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+      "distorted_projection_samples": 330,
+      "rgb_timestamp_difference": 0.0,
+      "prediction_inverse_depth_spearman": 0.9117350458573578,
+      "unconstrained_inverse_depth_slope": 0.856900947385987
+    },
+    {
+      "timestamp": 26.9113505,
+      "observation_count": 270,
+      "reprojection_median_px": 0.7199297745992506,
+      "reprojection_p95_px": 2.273325508006428,
+      "exported_pose_max_abs_difference": 4.5984105412344434e-11,
+      "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+      "distorted_projection_samples": 270,
+      "rgb_timestamp_difference": 0.0,
+      "prediction_inverse_depth_spearman": 0.7633452564797787,
+      "unconstrained_inverse_depth_slope": 0.7258583476422784
+    },
+    {
+      "timestamp": 28.1121248,
+      "observation_count": 273,
+      "reprojection_median_px": 0.6342963224944576,
+      "reprojection_p95_px": 1.957067211008474,
+      "exported_pose_max_abs_difference": 5.636256739105505e-11,
+      "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+      "distorted_projection_samples": 273,
+      "rgb_timestamp_difference": 0.0,
+      "prediction_inverse_depth_spearman": 0.8063965386243475,
+      "unconstrained_inverse_depth_slope": 0.5157202605630614
+    },
+    {
+      "timestamp": 29.1200661,
+      "observation_count": 279,
+      "reprojection_median_px": 0.688517896319158,
+      "reprojection_p95_px": 1.9783037303224054,
+      "exported_pose_max_abs_difference": 2.7475334507531812e-11,
+      "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+      "distorted_projection_samples": 279,
+      "rgb_timestamp_difference": 0.0,
+      "prediction_inverse_depth_spearman": 0.7740638052779701,
+      "unconstrained_inverse_depth_slope": 0.42557249136984987
+    }
+  ],
+  "inference_size_wh": [
+    224,
+    168
+  ],
+  "landmark_max_ray_angle_degrees_median": 2.966249933016642,
+  "landmark_max_ray_angle_degrees_p10": 2.1622566231945024,
+  "pooled_reprojection_median_px": 0.5769189094416103,
+  "pooled_reprojection_p95_px": 2.00121522907326,
+  "note": "Reprojection is internal SLAM consistency, not independent accuracy. Correlations are diagnostics, not used to tune acceptance."
+}

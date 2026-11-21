@@ -1,0 +1,95 @@
+{
+  "dataset": "data\\recordings\\1793510972945292300",
+  "slam": "data\\slam_webcam_1793510972945292300",
+  "keyframes": [
+    {
+      "timestamp": 10.7008726,
+      "observation_count": 115,
+      "reprojection_median_px": 0.4589021875143679,
+      "reprojection_p95_px": 2.0397730110697325,
+      "exported_pose_max_abs_difference": 0.0,
+      "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+      "distorted_projection_samples": 115,
+      "rgb_timestamp_difference": 0.0,
+      "prediction_inverse_depth_spearman": 0.6024066913911466,
+      "unconstrained_inverse_depth_slope": 0.21033346885309348
+    },
+    {
+      "timestamp": 10.9717475,
+      "observation_count": 128,
+      "reprojection_median_px": 0.42776242505348633,
+      "reprojection_p95_px": 1.5293520500956397,
+      "exported_pose_max_abs_difference": 3.414337389207045e-12,
+      "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+      "distorted_projection_samples": 128,
+      "rgb_timestamp_difference": 0.0,
+      "prediction_inverse_depth_spearman": 0.6284677714704265,
+      "unconstrained_inverse_depth_slope": 0.21230003811700918
+    },
+    {
+      "timestamp": 17.0526407,
+      "observation_count": 130,
+      "reprojection_median_px": 0.623573901243736,
+      "reprojection_p95_px": 1.9880459553122423,
+      "exported_pose_max_abs_difference": 7.010923092076737e-11,
+      "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+      "distorted_projection_samples": 130,
+      "rgb_timestamp_difference": 0.0,
+      "prediction_inverse_depth_spearman": 0.5741687036556555,
+      "unconstrained_inverse_depth_slope": 0.21742837741435625
+    },
+    {
+      "timestamp": 18.5240985,
+      "observation_count": 97,
+      "reprojection_median_px": 0.876686423358576,
+      "reprojection_p95_px": 2.186633343993779,
+      "exported_pose_max_abs_difference": 5.4951362904454015e-11,
+      "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+      "distorted_projection_samples": 97,
+      "rgb_timestamp_difference": 0.0,
+      "prediction_inverse_depth_spearman": 0.6086156111929308,
+      "unconstrained_inverse_depth_slope": 0.22458441066483825
+    },
+    {
+      "timestamp": 19.324274,
+      "observation_count": 86,
+      "reprojection_median_px": 0.8372087939133828,
+      "reprojection_p95_px": 1.7606961087182693,
+      "exported_pose_max_abs_difference": 5.2302107089730043e-11,
+      "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+      "distorted_projection_samples": 86,
+      "rgb_timestamp_difference": 0.0,
+      "prediction_inverse_depth_spearman": 0.6296051700551912,
+      "unconstrained_inverse_depth_slope": 0.29960876609525183
+    },
+    {
+      "timestamp": 19.4674439,
+      "observation_count": 92,
+      "reprojection_median_px": 0.7462034078464006,
+      "reprojection_p95_px": 2.1246872273957726,
+      "exported_pose_max_abs_difference": 9.432424286082153e-11,
+      "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+      "distorted_projection_samples": 92,
+      "rgb_timestamp_difference": 0.0,
+      "prediction_inverse_depth_spearman": 0.6788681164557742,
+      "unconstrained_inverse_depth_slope": 0.2544359404349135
+    },
+    {
+      "timestamp": 19.8038557,
+      "observation_count": 91,
+      "reprojection_median_px": 0.7560023190524582,
+      "reprojection_p95_px": 1.9378498333222112,
+      "exported_pose_max_abs_difference": 5.24655874301061e-11,
+      "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+      "distorted_projection_samples": 91,
+      "rgb_timestamp_difference": 0.0,
+      "prediction_inverse_depth_spearman": 0.5857939162286989,
+      "unconstrained_inverse_depth_slope": 0.2346620054952964
+    }
+  ],
+  "landmark_max_ray_angle_degrees_median": 2.787883809366283,
+  "landmark_max_ray_angle_degrees_p10": 0.09297572587413162,
+  "pooled_reprojection_median_px": 0.6432959374400303,
+  "pooled_reprojection_p95_px": 1.996923397143638,
+  "note": "Reprojection is internal SLAM consistency, not independent accuracy. Correlations are diagnostics, not used to tune acceptance."
+}

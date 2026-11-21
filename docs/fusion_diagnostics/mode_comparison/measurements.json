@@ -1,0 +1,84 @@
+{
+  "local": {
+    "outputs": 98,
+    "posed": 80,
+    "dense_outputs": 34,
+    "first_dense_timestamp": 4.453094500000589,
+    "first_pose_timestamp": 3.9721781000262126,
+    "timing": {
+      "capture_receipt_to_packet": {
+        "samples": 98,
+        "p50_ms": 321.90055001410656,
+        "p95_ms": 501.81367001496255,
+        "p99_ms": 555.0666820147309
+      },
+      "output_interval": {
+        "samples": 97,
+        "p50_ms": 262.45869998820126,
+        "p95_ms": 424.2108599864877,
+        "p99_ms": 476.2475400208486
+      },
+      "interval_jitter_abs_deviation_from_median": {
+        "samples": 97,
+        "p50_ms": 39.2497000284493,
+        "p95_ms": 161.75215999828646,
+        "p99_ms": 213.78884003264733
+      },
+      "deadline_ms": 500,
+      "deadline_misses": 6,
+      "skipped_capture_frames": 318,
+      "scope": "Software capture receipt to packet readiness. Excludes sensor buffering and network/browser display."
+    },
+    "exact_frame_matches": true,
+    "verification": {
+      "source": "Timed saved RGB, not physical webcam",
+      "worker_outputs": 98,
+      "outputs_with_pose": 80,
+      "outputs_with_dense_preview": 34,
+      "outputs_with_keyframe_window": 0,
+      "exact_frame_matches": true,
+      "final_map_points": 447
+    }
+  },
+  "window": {
+    "outputs": 99,
+    "posed": 69,
+    "dense_outputs": 0,
+    "first_dense_timestamp": null,
+    "first_pose_timestamp": 6.66159069997957,
+    "timing": {
+      "capture_receipt_to_packet": {
+        "samples": 99,
+        "p50_ms": 305.8004999766126,
+        "p95_ms": 587.4755999888293,
+        "p99_ms": 668.7827520258712
+      },
+      "output_interval": {
+        "samples": 98,
+        "p50_ms": 249.68135001836345,
+        "p95_ms": 495.5880550143772,
+        "p99_ms": 583.202917001909
+      },
+      "interval_jitter_abs_deviation_from_median": {
+        "samples": 98,
+        "p50_ms": 31.74500001478009,
+        "p95_ms": 245.9067049960137,
+        "p99_ms": 333.52156698354554
+      },
+      "deadline_ms": 500,
+      "deadline_misses": 10,
+      "skipped_capture_frames": 319,
+      "scope": "Software capture receipt to packet readiness. Excludes sensor buffering and network/browser display."
+    },
+    "exact_frame_matches": true,
+    "verification": {
+      "source": "Timed saved RGB, not physical webcam",
+      "worker_outputs": 99,
+      "outputs_with_pose": 69,
+      "outputs_with_dense_preview": 0,
+      "outputs_with_keyframe_window": 0,
+      "exact_frame_matches": true,
+      "final_map_points": 372
+    }
+  }
+}

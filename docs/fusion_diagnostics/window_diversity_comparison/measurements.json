@@ -1,0 +1,43 @@
+{
+  "dataset": "data\\sessions\\a934304385684437bed057244f50eee1\\slam_input",
+  "trace": "data\\window_diversity_comparison\\snapshots.jsonl",
+  "source_frames": 451,
+  "snapshot_stride": 8,
+  "unique_model_predictions": 16,
+  "policies": {
+    "newest": {
+      "outputs": 58,
+      "posed_outputs": 40,
+      "dense_outputs": 29,
+      "first_dense": 10.7358548,
+      "cached_prediction_events": 16,
+      "max_cache": 7,
+      "max_dense": 6233,
+      "final_dense_points": 3443,
+      "final_window": [
+        3,
+        12,
+        13,
+        14
+      ]
+    },
+    "diverse": {
+      "outputs": 58,
+      "posed_outputs": 40,
+      "dense_outputs": 38,
+      "first_dense": 10.7358548,
+      "cached_prediction_events": 16,
+      "max_cache": 7,
+      "max_dense": 6233,
+      "final_dense_points": 3443,
+      "final_window": [
+        3,
+        12,
+        13,
+        14
+      ]
+    }
+  },
+  "compare_windows": true,
+  "note": "Same frozen online SLAM replies and pixel-identical shared predictions. Saved-input SLAM and fixed snapshot decimation, not original live scheduling or a latency benchmark. Quality gates unchanged."
+}

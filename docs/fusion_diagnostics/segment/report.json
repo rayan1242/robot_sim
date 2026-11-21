@@ -1,0 +1,100 @@
+{
+  "interval_seconds": [
+    14,
+    20.1
+  ],
+  "available_pose_frames": 91,
+  "input_frames": 91,
+  "fused_keyframes": 5,
+  "shared_landmark_neighbor_ray_angle_median_degrees": 1.3291952087607102,
+  "neighbor_landmark_pairs": 1541,
+  "pairs": [
+    {
+      "projected_samples": 1648,
+      "valid_samples": 1589,
+      "depth_abs_rel_median": 0.023700507581654182,
+      "depth_abs_rel_p90": 0.09235693856947363,
+      "fraction_within_10_percent": 0.9162995594713657,
+      "rgb_transfer_mean_abs_error_0_255": 5.65555409422855,
+      "source_timestamp": 14.657115,
+      "target_timestamp": 15.9191855
+    },
+    {
+      "projected_samples": 1730,
+      "valid_samples": 1670,
+      "depth_abs_rel_median": 0.024363445382101265,
+      "depth_abs_rel_p90": 0.10908218556639078,
+      "fraction_within_10_percent": 0.8832335329341318,
+      "rgb_transfer_mean_abs_error_0_255": 5.813438552582335,
+      "source_timestamp": 15.9191855,
+      "target_timestamp": 14.657115
+    },
+    {
+      "projected_samples": 1709,
+      "valid_samples": 1656,
+      "depth_abs_rel_median": 0.03350682817654397,
+      "depth_abs_rel_p90": 0.06500079857971683,
+      "fraction_within_10_percent": 0.9776570048309179,
+      "rgb_transfer_mean_abs_error_0_255": 5.061884734173711,
+      "source_timestamp": 15.9191855,
+      "target_timestamp": 16.9263602
+    },
+    {
+      "projected_samples": 1805,
+      "valid_samples": 1691,
+      "depth_abs_rel_median": 0.03414431808033124,
+      "depth_abs_rel_p90": 0.06492388808346598,
+      "fraction_within_10_percent": 0.9834417504435246,
+      "rgb_transfer_mean_abs_error_0_255": 5.846342424046422,
+      "source_timestamp": 16.9263602,
+      "target_timestamp": 15.9191855
+    },
+    {
+      "projected_samples": 1324,
+      "valid_samples": 1280,
+      "depth_abs_rel_median": 0.03613379876326786,
+      "depth_abs_rel_p90": 0.10939301272171105,
+      "fraction_within_10_percent": 0.86875,
+      "rgb_transfer_mean_abs_error_0_255": 5.3215278625488285,
+      "source_timestamp": 16.9263602,
+      "target_timestamp": 18.9914562
+    },
+    {
+      "projected_samples": 1489,
+      "valid_samples": 1415,
+      "depth_abs_rel_median": 0.03660275311375402,
+      "depth_abs_rel_p90": 0.11072695465254916,
+      "fraction_within_10_percent": 0.8720848056537103,
+      "rgb_transfer_mean_abs_error_0_255": 7.030752401722615,
+      "source_timestamp": 18.9914562,
+      "target_timestamp": 16.9263602
+    },
+    {
+      "projected_samples": 1635,
+      "valid_samples": 1605,
+      "depth_abs_rel_median": 0.020360139311041404,
+      "depth_abs_rel_p90": 0.061603300033886706,
+      "fraction_within_10_percent": 0.9887850467289719,
+      "rgb_transfer_mean_abs_error_0_255": 4.146494921469367,
+      "source_timestamp": 18.9914562,
+      "target_timestamp": 20.0014933
+    },
+    {
+      "projected_samples": 1754,
+      "valid_samples": 1673,
+      "depth_abs_rel_median": 0.019739073765336623,
+      "depth_abs_rel_p90": 0.05816731992978327,
+      "fraction_within_10_percent": 0.9874476987447699,
+      "rgb_transfer_mean_abs_error_0_255": 4.1203057288553495,
+      "source_timestamp": 20.0014933,
+      "target_timestamp": 18.9914562
+    }
+  ],
+  "limitations": [
+    "Uses saved optimized poses and existing fits; no new fitting or threshold tuning",
+    "Range-limited depth support; not the training convex-hull mask",
+    "Pair errors include occlusions and view-dependent predictions; they are not independent accuracy",
+    "Photometric error includes exposure changes and occlusion; not an isolated pose test",
+    "Internal landmark ray angles are estimates, not measured physical baselines"
+  ]
+}

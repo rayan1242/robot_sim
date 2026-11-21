@@ -1,0 +1,134 @@
+{
+  "source": "Timed saved RGB, not physical webcam",
+  "worker_outputs": 46,
+  "outputs_with_pose": 45,
+  "outputs_with_dense_preview": 0,
+  "outputs_with_keyframe_window": 44,
+  "exact_frame_matches": true,
+  "final_map_points": 1567,
+  "timing_summary": {
+    "capture_receipt_to_packet": {
+      "samples": 46,
+      "p50_ms": 595.9508499945514,
+      "p95_ms": 884.1358750069048,
+      "p99_ms": 983.1844650208948
+    },
+    "output_interval": {
+      "samples": 45,
+      "p50_ms": 545.1801000162959,
+      "p95_ms": 792.9219199810177,
+      "p99_ms": 878.9747800119223
+    },
+    "interval_jitter_abs_deviation_from_median": {
+      "samples": 45,
+      "p50_ms": 163.79329998744652,
+      "p95_ms": 284.4440999790095,
+      "p99_ms": 347.438860035036
+    },
+    "deadline_ms": 500,
+    "deadline_misses": 32,
+    "skipped_capture_frames": 669,
+    "scope": "Software capture receipt to packet readiness. Excludes sensor buffering and network/browser display."
+  },
+  "final_fusion": {
+    "state": "keyframe_window",
+    "reason": null,
+    "dense_history": "bounded active keyframe window; rebuilt with current poses and landmark depths",
+    "window_keyframes": [
+      15,
+      24
+    ],
+    "prediction_cache_size": 4,
+    "window_limit": 4,
+    "cache_limit": 8,
+    "dense_points": 217,
+    "new_keyframe_id": null,
+    "keyframe_inference_ms": 0.0,
+    "per_keyframe": [
+      {
+        "id": 15,
+        "timestamp": 8.5801059,
+        "state": "local_dense_preview",
+        "reason": null,
+        "quality": {
+          "training_depth_inliers": 267,
+          "training_depth_inlier_fraction": 0.9535714285714286,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.9320951615636497,
+          "training_hull_image_fraction": 0.46592969103246995,
+          "prediction_support_min": 0.673891990184784,
+          "prediction_support_max": 3.2023761844635006,
+          "dense_supported_pixel_fraction": 0.45400191326530615
+        },
+        "heldout_samples": 69,
+        "invalid_heldout": 0,
+        "heldout_abs_rel_mean": 0.044595982354114244
+      },
+      {
+        "id": 17,
+        "timestamp": 9.8459272,
+        "state": "sparse_only",
+        "reason": "Training depth ordering is weak or contradicts sparse geometry (rank correlation <0.3)",
+        "quality": {
+          "training_depth_inliers": 119,
+          "training_depth_inlier_fraction": 0.53125,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": -0.2994576126414692,
+          "rejection": "Training depth ordering is weak or contradicts sparse geometry (rank correlation <0.3)"
+        }
+      },
+      {
+        "id": 19,
+        "timestamp": 11.1120654,
+        "state": "sparse_only",
+        "reason": "Training depth ordering is weak or contradicts sparse geometry (rank correlation <0.3)",
+        "quality": {
+          "training_depth_inliers": 132,
+          "training_depth_inlier_fraction": 0.6875,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": -0.2598048856577056,
+          "rejection": "Training depth ordering is weak or contradicts sparse geometry (rank correlation <0.3)"
+        }
+      },
+      {
+        "id": 24,
+        "timestamp": 14.0789554,
+        "state": "local_dense_preview",
+        "reason": null,
+        "quality": {
+          "training_depth_inliers": 100,
+          "training_depth_inlier_fraction": 0.9615384615384616,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7674810626266938,
+          "training_hull_image_fraction": 0.39755888492183095,
+          "prediction_support_min": 1.5655028247833251,
+          "prediction_support_max": 3.2312117457389835,
+          "dense_supported_pixel_fraction": 0.4005102040816326
+        },
+        "heldout_samples": 26,
+        "invalid_heldout": 0,
+        "heldout_abs_rel_mean": 0.05428733577381309
+      }
+    ],
+    "cross_view": [
+      {
+        "id": 15,
+        "input_points": 1905,
+        "retained_points": 102,
+        "unsupported_points": 1803,
+        "free_space_conflict_points": 0
+      },
+      {
+        "id": 24,
+        "input_points": 1673,
+        "retained_points": 115,
+        "unsupported_points": 1558,
+        "free_space_conflict_points": 1
+      }
+    ],
+    "window_update_ms": 20.205500011797994
+  },
+  "max_dense_points": 8810,
+  "max_cache": 8,
+  "max_window": 4
+}

@@ -1,0 +1,24 @@
+{
+  "capture_receipt_to_packet": {
+    "samples": 59,
+    "p50_ms": 383.7941000238061,
+    "p95_ms": 744.8367500095627,
+    "p99_ms": 804.2802240187303
+  },
+  "output_interval": {
+    "samples": 58,
+    "p50_ms": 261.1493999720551,
+    "p95_ms": 642.6736249879468,
+    "p99_ms": 674.777964001405
+  },
+  "interval_jitter_abs_deviation_from_median": {
+    "samples": 58,
+    "p50_ms": 57.75019995053299,
+    "p95_ms": 381.52422501589166,
+    "p99_ms": 413.62856402934995
+  },
+  "deadline_ms": 500,
+  "deadline_misses": 20,
+  "skipped_capture_frames": 86,
+  "scope": "Software capture receipt to packet readiness. Excludes sensor buffering and network/browser display."
+}

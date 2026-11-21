@@ -1,0 +1,107 @@
+{
+  "dataset": "data\\recordings\\1793499467724595200",
+  "slam": "data\\slam_webcam_1793499467724595200",
+  "keyframes": [
+    {
+      "timestamp": 0.7998178,
+      "observation_count": 242,
+      "reprojection_median_px": 0.7785117199819035,
+      "reprojection_p95_px": 2.092488055012179,
+      "exported_pose_max_abs_difference": 0.0,
+      "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+      "distorted_projection_samples": 242,
+      "rgb_timestamp_difference": 0.0,
+      "prediction_inverse_depth_spearman": -0.6288616497342764,
+      "unconstrained_inverse_depth_slope": -0.24283239781324284
+    },
+    {
+      "timestamp": 1.7436112,
+      "observation_count": 246,
+      "reprojection_median_px": 0.7338211476220915,
+      "reprojection_p95_px": 2.4011667994272488,
+      "exported_pose_max_abs_difference": 6.507855365711634e-11,
+      "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+      "distorted_projection_samples": 246,
+      "rgb_timestamp_difference": 0.0,
+      "prediction_inverse_depth_spearman": -0.5367389258458394,
+      "unconstrained_inverse_depth_slope": -0.15025452942193396
+    },
+    {
+      "timestamp": 1.8715136,
+      "observation_count": 261,
+      "reprojection_median_px": 0.9382837885117321,
+      "reprojection_p95_px": 2.3455111877312973,
+      "exported_pose_max_abs_difference": 9.089555844110642e-11,
+      "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+      "distorted_projection_samples": 261,
+      "rgb_timestamp_difference": 0.0,
+      "prediction_inverse_depth_spearman": -0.5977031742496339,
+      "unconstrained_inverse_depth_slope": -0.20319033144130144
+    },
+    {
+      "timestamp": 8.3526244,
+      "observation_count": 202,
+      "reprojection_median_px": 0.9747370603286973,
+      "reprojection_p95_px": 2.0629354502137622,
+      "exported_pose_max_abs_difference": 9.597685979301218e-10,
+      "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+      "distorted_projection_samples": 202,
+      "rgb_timestamp_difference": 0.0,
+      "prediction_inverse_depth_spearman": -0.6778178075141533,
+      "unconstrained_inverse_depth_slope": -0.1565322152370977
+    },
+    {
+      "timestamp": 17.52021,
+      "observation_count": 45,
+      "reprojection_median_px": 0.7377861620362184,
+      "reprojection_p95_px": 1.5099044635856442,
+      "exported_pose_max_abs_difference": 7.415600355997753e-10,
+      "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+      "distorted_projection_samples": 45,
+      "rgb_timestamp_difference": 0.0,
+      "prediction_inverse_depth_spearman": -0.38985507246376805,
+      "unconstrained_inverse_depth_slope": -0.06578833281419587
+    },
+    {
+      "timestamp": 19.199562,
+      "observation_count": 24,
+      "reprojection_median_px": 0.8628815489067949,
+      "reprojection_p95_px": 1.3879525942849344,
+      "exported_pose_max_abs_difference": 4.969753497618967e-10,
+      "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+      "distorted_projection_samples": 24,
+      "rgb_timestamp_difference": 0.0,
+      "prediction_inverse_depth_spearman": -0.1843478260869565,
+      "unconstrained_inverse_depth_slope": 0.12928963209434527
+    },
+    {
+      "timestamp": 19.3276776,
+      "observation_count": 24,
+      "reprojection_median_px": 1.002733643176318,
+      "reprojection_p95_px": 1.5768822999132763,
+      "exported_pose_max_abs_difference": 2.8244731553606073e-10,
+      "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+      "distorted_projection_samples": 24,
+      "rgb_timestamp_difference": 0.0,
+      "prediction_inverse_depth_spearman": -0.16869565217391302,
+      "unconstrained_inverse_depth_slope": 0.11654441514764424
+    },
+    {
+      "timestamp": 19.4562206,
+      "observation_count": 24,
+      "reprojection_median_px": 0.7461862439658227,
+      "reprojection_p95_px": 2.582432665306541,
+      "exported_pose_max_abs_difference": 2.8765861914692437e-10,
+      "camera_matrix_max_abs_difference": 4.2453507376194466e-10,
+      "distorted_projection_samples": 24,
+      "rgb_timestamp_difference": 0.0,
+      "prediction_inverse_depth_spearman": -0.13739130434782607,
+      "unconstrained_inverse_depth_slope": 0.11002751110905341
+    }
+  ],
+  "pooled_reprojection_median_px": 0.8500123213371624,
+  "pooled_reprojection_p95_px": 2.276871134243045,
+  "note": "Reprojection is internal SLAM consistency, not independent accuracy. Correlations are diagnostics, not used to tune acceptance.",
+  "landmark_max_ray_angle_degrees_median": 0.7030332540080685,
+  "landmark_max_ray_angle_degrees_p10": 0.34497105285822827
+}

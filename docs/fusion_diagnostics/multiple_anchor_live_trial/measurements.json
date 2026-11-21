@@ -1,0 +1,264 @@
+{
+  "session": {
+    "id": "a934304385684437bed057244f50eee1",
+    "created_at": "2026-11-01T21:26:10.697550+00:00",
+    "name": "Webcam session",
+    "status": "ready",
+    "metadata": {
+      "source": "webcam",
+      "options": {
+        "name": "Webcam session",
+        "camera": 0,
+        "width": 640,
+        "height": 480,
+        "fps": 15.0,
+        "duration": 30.0,
+        "backend": "dshow",
+        "depth": true,
+        "device": "auto",
+        "auto_exposure": true,
+        "depth_width": 224,
+        "depth_height": 168,
+        "deadline_ms": 500,
+        "slam": true,
+        "keyframe_map": true,
+        "slam_initialization_profile": "strict",
+        "slam_config": "C:\\Users\\Rayyan\\developer\\robot_sim\\slam\\webcam_640_mono_strict.yaml"
+      },
+      "limitations": [
+        "Experimental live SLAM; initialization/tracking may fail",
+        "Bounded cross-view-validated keyframe window rebuilt with current poses; not complete room reconstruction",
+        "Arbitrary SLAM units, not meters; fits do not establish independent accuracy"
+      ],
+      "map_snapshot_saved": true,
+      "map_snapshot_warning": null,
+      "actual_image_size_wh": [
+        640,
+        480
+      ],
+      "actual_device": "cpu",
+      "model": "depth-anything/Depth-Anything-V2-Small-hf",
+      "saved_rgb_frames": 105
+    }
+  },
+  "outputs": 105,
+  "posed": 81,
+  "first_pose": 4.8313415000448,
+  "modes": {
+    "sparse_only": 80,
+    "keyframe_window": 25
+  },
+  "policies": {
+    "all_cached": 105
+  },
+  "removals": {
+    "absent_from_active_map_snapshot": 15
+  },
+  "decisions": {
+    "prediction_cached": 22
+  },
+  "rejection_counts": {
+    "Need >=50 training depth inliers and >=70% support": 231
+  },
+  "last_fusion": {
+    "state": "sparse_only",
+    "reason": "No cross-view-supported keyframe depth in active window",
+    "dense_history": "bounded active keyframe window; rebuilt with current poses and landmark depths",
+    "window_keyframes": [
+      16,
+      22,
+      23,
+      24
+    ],
+    "prediction_cache_size": 7,
+    "window_limit": 4,
+    "cache_limit": 8,
+    "dense_points": 0,
+    "new_keyframe_id": null,
+    "keyframe_inference_ms": 0.0,
+    "keyframe_removals": [],
+    "candidate_decisions": [],
+    "selection_policy": "all_cached",
+    "per_keyframe": [
+      {
+        "id": 0,
+        "timestamp": 0.7996683,
+        "state": "sparse_only",
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 137,
+          "training_depth_inlier_fraction": 0.5614754098360656,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6556063591192396,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      },
+      {
+        "id": 8,
+        "timestamp": 7.1836919,
+        "state": "sparse_only",
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 140,
+          "training_depth_inlier_fraction": 0.6194690265486725,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7159949579613529,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      },
+      {
+        "id": 12,
+        "timestamp": 12.6947248,
+        "state": "local_dense_preview",
+        "reason": null,
+        "quality": {
+          "training_depth_inliers": 159,
+          "training_depth_inlier_fraction": 0.7162162162162162,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.8461713951030755,
+          "training_hull_image_fraction": 0.31391585628575414,
+          "prediction_support_min": 0.6899425601959228,
+          "prediction_support_max": 1.9138461303710936,
+          "dense_supported_pixel_fraction": 0.31449298469387754
+        },
+        "heldout_samples": 55,
+        "invalid_heldout": 0,
+        "heldout_abs_rel_mean": 0.11592609142123181
+      },
+      {
+        "id": 16,
+        "timestamp": 18.783639,
+        "state": "local_dense_preview",
+        "reason": null,
+        "quality": {
+          "training_depth_inliers": 145,
+          "training_depth_inlier_fraction": 0.7073170731707317,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7531598668356757,
+          "training_hull_image_fraction": 0.42433989872299016,
+          "prediction_support_min": 0.2906027913093567,
+          "prediction_support_max": 1.225432825088501,
+          "dense_supported_pixel_fraction": 0.4281462585034014
+        },
+        "heldout_samples": 51,
+        "invalid_heldout": 0,
+        "heldout_abs_rel_mean": 0.10284021196121917
+      },
+      {
+        "id": 22,
+        "timestamp": 26.3676345,
+        "state": "local_dense_preview",
+        "reason": null,
+        "quality": {
+          "training_depth_inliers": 123,
+          "training_depth_inlier_fraction": 0.8601398601398601,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.8317451328014707,
+          "training_hull_image_fraction": 0.33383327300608856,
+          "prediction_support_min": 0.18159282267093657,
+          "prediction_support_max": 0.9107090508937836,
+          "dense_supported_pixel_fraction": 0.3346885629251701
+        },
+        "heldout_samples": 35,
+        "invalid_heldout": 0,
+        "heldout_abs_rel_mean": 0.06810152551259153
+      },
+      {
+        "id": 23,
+        "timestamp": 27.7117055,
+        "state": "local_dense_preview",
+        "reason": null,
+        "quality": {
+          "training_depth_inliers": 126,
+          "training_depth_inlier_fraction": 0.8513513513513513,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.8313559416148104,
+          "training_hull_image_fraction": 0.31852605901068404,
+          "prediction_support_min": 0.2534780949354172,
+          "prediction_support_max": 1.0987935960292816,
+          "dense_supported_pixel_fraction": 0.32408588435374147
+        },
+        "heldout_samples": 36,
+        "invalid_heldout": 0,
+        "heldout_abs_rel_mean": 0.08192221387208626
+      },
+      {
+        "id": 24,
+        "timestamp": 28.7828867,
+        "state": "local_dense_preview",
+        "reason": null,
+        "quality": {
+          "training_depth_inliers": 118,
+          "training_depth_inlier_fraction": 0.8428571428571429,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7310839474317203,
+          "training_hull_image_fraction": 0.3320198721449838,
+          "prediction_support_min": 0.07093574829399586,
+          "prediction_support_max": 1.1135497748851777,
+          "dense_supported_pixel_fraction": 0.33242984693877553
+        },
+        "heldout_samples": 35,
+        "invalid_heldout": 0,
+        "heldout_abs_rel_mean": 0.10197441026711178
+      }
+    ],
+    "cross_view": [
+      {
+        "id": 16,
+        "input_points": 1790,
+        "retained_points": 0,
+        "unsupported_points": 1790,
+        "free_space_conflict_points": 0
+      },
+      {
+        "id": 22,
+        "input_points": 1405,
+        "retained_points": 0,
+        "unsupported_points": 1405,
+        "free_space_conflict_points": 0
+      },
+      {
+        "id": 23,
+        "input_points": 1351,
+        "retained_points": 0,
+        "unsupported_points": 1351,
+        "free_space_conflict_points": 0
+      },
+      {
+        "id": 24,
+        "input_points": 1391,
+        "retained_points": 0,
+        "unsupported_points": 1391,
+        "free_space_conflict_points": 0
+      }
+    ],
+    "window_update_ms": 52.2484999964945
+  },
+  "timing": {
+    "capture_receipt_to_packet": {
+      "samples": 105,
+      "p50_ms": 282.9090000013821,
+      "p95_ms": 663.4081600350328,
+      "p99_ms": 752.0495079923418
+    },
+    "output_interval": {
+      "samples": 104,
+      "p50_ms": 224.48465001070872,
+      "p95_ms": 609.9207649967865,
+      "p99_ms": 641.3244100037264
+    },
+    "interval_jitter_abs_deviation_from_median": {
+      "samples": 104,
+      "p50_ms": 20.827900007134303,
+      "p95_ms": 385.4361149860778,
+      "p99_ms": 416.83975999301765
+    },
+    "deadline_ms": 500,
+    "deadline_misses": 19,
+    "skipped_capture_frames": 343,
+    "scope": "Software capture receipt to packet readiness. Excludes sensor buffering and network/browser display."
+  },
+  "first_dense": 15.295836400007829,
+  "last_dense": 28.719382400042377,
+  "peak_dense": 4033
+}

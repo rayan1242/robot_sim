@@ -1,0 +1,1684 @@
+[
+  {
+    "timestamp": 11.614381199993659,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0
+    ],
+    "dense_points": 0,
+    "rejections": []
+  },
+  {
+    "timestamp": 12.014460599981248,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      2
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 2,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 50,
+          "training_depth_inlier_fraction": 0.6666666666666666,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.42196301564722616,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 12.415077899990138,
+    "accepted_keyframes": [],
+    "cached_ids": [
+      0,
+      4
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 127,
+          "training_depth_inlier_fraction": 0.6479591836734694,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6655324371060413,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      },
+      {
+        "id": 4,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 94,
+          "training_depth_inlier_fraction": 0.5875,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.38275811555138867,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 12.894284999987576,
+    "accepted_keyframes": [],
+    "cached_ids": [
+      0,
+      4
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 127,
+          "training_depth_inlier_fraction": 0.6479591836734694,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6655324371060413,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      },
+      {
+        "id": 4,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 94,
+          "training_depth_inlier_fraction": 0.5875,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.38275811555138867,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 13.086609999998473,
+    "accepted_keyframes": [],
+    "cached_ids": [
+      0,
+      4
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 127,
+          "training_depth_inlier_fraction": 0.6479591836734694,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6655324371060413,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      },
+      {
+        "id": 4,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 94,
+          "training_depth_inlier_fraction": 0.5875,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.38275811555138867,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 13.294975999975577,
+    "accepted_keyframes": [],
+    "cached_ids": [
+      0,
+      4
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 127,
+          "training_depth_inlier_fraction": 0.6479591836734694,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6655324371060413,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      },
+      {
+        "id": 4,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 94,
+          "training_depth_inlier_fraction": 0.5875,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.38275811555138867,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 13.4871487999917,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      5
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 5,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 117,
+          "training_depth_inlier_fraction": 0.5969387755102041,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.49205268987720047,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 13.887160899990704,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      5
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 5,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 117,
+          "training_depth_inlier_fraction": 0.5969387755102041,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.49205268987720047,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 14.094999200024176,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      5
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 5,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 117,
+          "training_depth_inlier_fraction": 0.5969387755102041,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.49205268987720047,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 14.366467599989846,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      5
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 5,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 117,
+          "training_depth_inlier_fraction": 0.5969387755102041,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.49205268987720047,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 14.558992900012527,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      6
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 6,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 144,
+          "training_depth_inlier_fraction": 0.6728971962616822,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6591922760208282,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 14.975579500023741,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      6
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 6,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 144,
+          "training_depth_inlier_fraction": 0.6728971962616822,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6591922760208282,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 15.23121609998634,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      6
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 6,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 144,
+          "training_depth_inlier_fraction": 0.6728971962616822,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6591922760208282,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 15.438959799997974,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      6
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 6,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 144,
+          "training_depth_inlier_fraction": 0.6728971962616822,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6591922760208282,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 15.647294400027022,
+    "accepted_keyframes": [
+      7
+    ],
+    "cached_ids": [
+      0,
+      7
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 185,
+          "training_depth_inlier_fraction": 0.6981132075471698,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.67831155934433,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 16.110672799986787,
+    "accepted_keyframes": [
+      7
+    ],
+    "cached_ids": [
+      0,
+      7
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 185,
+          "training_depth_inlier_fraction": 0.6981132075471698,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.67831155934433,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 16.302546299993992,
+    "accepted_keyframes": [
+      7
+    ],
+    "cached_ids": [
+      0,
+      7
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 185,
+          "training_depth_inlier_fraction": 0.6981132075471698,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.67831155934433,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 16.57461469998816,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      8
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 8,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 156,
+          "training_depth_inlier_fraction": 0.6473029045643154,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6884117485682932,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 16.974503399978857,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      8
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 8,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 156,
+          "training_depth_inlier_fraction": 0.6473029045643154,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6884117485682932,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 17.183271699992474,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      8
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 8,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 156,
+          "training_depth_inlier_fraction": 0.6473029045643154,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6884117485682932,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 17.39077019999968,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      8
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 8,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 156,
+          "training_depth_inlier_fraction": 0.6473029045643154,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6884117485682932,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 17.582510499982163,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      9
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 9,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 172,
+          "training_depth_inlier_fraction": 0.6991869918699187,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6966122086239452,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 18.062456400017254,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      9
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 9,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 172,
+          "training_depth_inlier_fraction": 0.6991869918699187,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6966122086239452,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 18.25500160001684,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      9
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 9,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 172,
+          "training_depth_inlier_fraction": 0.6991869918699187,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6966122086239452,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 18.462347999971826,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      9
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 9,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 172,
+          "training_depth_inlier_fraction": 0.6991869918699187,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6966122086239452,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 18.719461400003638,
+    "accepted_keyframes": [
+      10
+    ],
+    "cached_ids": [
+      0,
+      10
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 184,
+          "training_depth_inlier_fraction": 0.6814814814814815,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.652043390322379,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 19.198937900015153,
+    "accepted_keyframes": [
+      10
+    ],
+    "cached_ids": [
+      0,
+      10
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 184,
+          "training_depth_inlier_fraction": 0.6814814814814815,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.652043390322379,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 19.39083509996999,
+    "accepted_keyframes": [
+      10
+    ],
+    "cached_ids": [
+      0,
+      10
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 184,
+          "training_depth_inlier_fraction": 0.6814814814814815,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.652043390322379,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 19.66307319997577,
+    "accepted_keyframes": [
+      11
+    ],
+    "cached_ids": [
+      0,
+      11
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 190,
+          "training_depth_inlier_fraction": 0.6934306569343066,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6703862560796867,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 20.062760300002992,
+    "accepted_keyframes": [
+      11
+    ],
+    "cached_ids": [
+      0,
+      11
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 190,
+          "training_depth_inlier_fraction": 0.6934306569343066,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6703862560796867,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 20.3346387000056,
+    "accepted_keyframes": [
+      11
+    ],
+    "cached_ids": [
+      0,
+      11
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 190,
+          "training_depth_inlier_fraction": 0.6934306569343066,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6703862560796867,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 20.478854199987836,
+    "accepted_keyframes": [
+      11
+    ],
+    "cached_ids": [
+      0,
+      11
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 190,
+          "training_depth_inlier_fraction": 0.6934306569343066,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6703862560796867,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 20.734629400016274,
+    "accepted_keyframes": [
+      12
+    ],
+    "cached_ids": [
+      0,
+      12
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 195,
+          "training_depth_inlier_fraction": 0.6914893617021277,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6889041334488806,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 21.13499699998647,
+    "accepted_keyframes": [
+      12
+    ],
+    "cached_ids": [
+      0,
+      12
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 195,
+          "training_depth_inlier_fraction": 0.6914893617021277,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6889041334488806,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 21.407096199982334,
+    "accepted_keyframes": [
+      12
+    ],
+    "cached_ids": [
+      0,
+      12
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 195,
+          "training_depth_inlier_fraction": 0.6914893617021277,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6889041334488806,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 21.61519819998648,
+    "accepted_keyframes": [
+      12
+    ],
+    "cached_ids": [
+      0,
+      12
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 195,
+          "training_depth_inlier_fraction": 0.6914893617021277,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6889041334488806,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 21.807239299989305,
+    "accepted_keyframes": [
+      12
+    ],
+    "cached_ids": [
+      0,
+      12
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 195,
+          "training_depth_inlier_fraction": 0.6914893617021277,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6889041334488806,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 22.0784184000222,
+    "accepted_keyframes": [
+      13
+    ],
+    "cached_ids": [
+      0,
+      13
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 197,
+          "training_depth_inlier_fraction": 0.6936619718309859,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6855034615354391,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 22.478519500000402,
+    "accepted_keyframes": [
+      13
+    ],
+    "cached_ids": [
+      0,
+      13
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 197,
+          "training_depth_inlier_fraction": 0.6936619718309859,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6855034615354391,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 22.687100899987854,
+    "accepted_keyframes": [
+      13
+    ],
+    "cached_ids": [
+      0,
+      13
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 197,
+          "training_depth_inlier_fraction": 0.6936619718309859,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6855034615354391,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 22.894328200025484,
+    "accepted_keyframes": [
+      13
+    ],
+    "cached_ids": [
+      0,
+      13
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 197,
+          "training_depth_inlier_fraction": 0.6936619718309859,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6855034615354391,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 23.086379099986516,
+    "accepted_keyframes": [],
+    "cached_ids": [
+      0,
+      14
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 195,
+          "training_depth_inlier_fraction": 0.6701030927835051,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6677227549196734,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      },
+      {
+        "id": 14,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 175,
+          "training_depth_inlier_fraction": 0.6730769230769231,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7103823793478965,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 23.550724099972285,
+    "accepted_keyframes": [],
+    "cached_ids": [
+      0,
+      14
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 195,
+          "training_depth_inlier_fraction": 0.6701030927835051,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6677227549196734,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      },
+      {
+        "id": 14,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 175,
+          "training_depth_inlier_fraction": 0.6730769230769231,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7103823793478965,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 23.758587300020736,
+    "accepted_keyframes": [],
+    "cached_ids": [
+      0,
+      14
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 195,
+          "training_depth_inlier_fraction": 0.6701030927835051,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6677227549196734,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      },
+      {
+        "id": 14,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 175,
+          "training_depth_inlier_fraction": 0.6730769230769231,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7103823793478965,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 23.96713040000759,
+    "accepted_keyframes": [],
+    "cached_ids": [
+      0,
+      14
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 195,
+          "training_depth_inlier_fraction": 0.6701030927835051,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6677227549196734,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      },
+      {
+        "id": 14,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 175,
+          "training_depth_inlier_fraction": 0.6730769230769231,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7103823793478965,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 24.15867510001408,
+    "accepted_keyframes": [],
+    "cached_ids": [
+      0,
+      15
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 183,
+          "training_depth_inlier_fraction": 0.6466431095406361,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.664753576719319,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      },
+      {
+        "id": 15,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 166,
+          "training_depth_inlier_fraction": 0.6434108527131783,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.701826107038305,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 24.63831269997172,
+    "accepted_keyframes": [],
+    "cached_ids": [
+      0,
+      15
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 183,
+          "training_depth_inlier_fraction": 0.6466431095406361,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.664753576719319,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      },
+      {
+        "id": 15,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 166,
+          "training_depth_inlier_fraction": 0.6434108527131783,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.701826107038305,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 24.831196299986914,
+    "accepted_keyframes": [],
+    "cached_ids": [
+      0,
+      15
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 183,
+          "training_depth_inlier_fraction": 0.6466431095406361,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.664753576719319,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      },
+      {
+        "id": 15,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 166,
+          "training_depth_inlier_fraction": 0.6434108527131783,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.701826107038305,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 25.038732899993192,
+    "accepted_keyframes": [],
+    "cached_ids": [
+      0,
+      15
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 190,
+          "training_depth_inlier_fraction": 0.6761565836298933,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6709888695388808,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      },
+      {
+        "id": 15,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 167,
+          "training_depth_inlier_fraction": 0.65234375,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.704925326161593,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 25.310357699985616,
+    "accepted_keyframes": [],
+    "cached_ids": [
+      0,
+      15
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 189,
+          "training_depth_inlier_fraction": 0.675,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6689238018706507,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      },
+      {
+        "id": 15,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 172,
+          "training_depth_inlier_fraction": 0.6615384615384615,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7182812217294975,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 25.566649299988057,
+    "accepted_keyframes": [],
+    "cached_ids": [
+      0,
+      15
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 189,
+          "training_depth_inlier_fraction": 0.675,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6689238018706507,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      },
+      {
+        "id": 15,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 172,
+          "training_depth_inlier_fraction": 0.6615384615384615,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7182812217294975,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 25.775269499979913,
+    "accepted_keyframes": [],
+    "cached_ids": [
+      0,
+      15
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 189,
+          "training_depth_inlier_fraction": 0.675,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6689238018706507,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      },
+      {
+        "id": 15,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 172,
+          "training_depth_inlier_fraction": 0.6615384615384615,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7182812217294975,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 26.046298699977342,
+    "accepted_keyframes": [],
+    "cached_ids": [
+      0,
+      15
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 0,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 187,
+          "training_depth_inlier_fraction": 0.6654804270462633,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6670823913725404,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      },
+      {
+        "id": 15,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 172,
+          "training_depth_inlier_fraction": 0.6615384615384615,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7182812217294975,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 26.238835499971174,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      17
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 17,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 125,
+          "training_depth_inlier_fraction": 0.51440329218107,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6101117149303935,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 26.782714499975555,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      17
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 17,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 125,
+          "training_depth_inlier_fraction": 0.51440329218107,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6101117149303935,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 27.054320099996403,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      17
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 17,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 125,
+          "training_depth_inlier_fraction": 0.51440329218107,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.6101117149303935,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 27.24647559999721,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      18
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 18,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 152,
+          "training_depth_inlier_fraction": 0.6495726495726496,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7509839869441733,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 27.76318359997822,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      18
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 18,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 152,
+          "training_depth_inlier_fraction": 0.6495726495726496,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7509839869441733,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 27.98318580002524,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      18
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 18,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 152,
+          "training_depth_inlier_fraction": 0.6495726495726496,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7509839869441733,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 28.190761099976953,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      19
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 19,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 158,
+          "training_depth_inlier_fraction": 0.6694915254237288,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7185902029972565,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 28.65503650001483,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      19
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 19,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 158,
+          "training_depth_inlier_fraction": 0.6694915254237288,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7185902029972565,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 28.86249259999022,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      19
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 19,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 158,
+          "training_depth_inlier_fraction": 0.6694915254237288,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7185902029972565,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 29.054481700004544,
+    "accepted_keyframes": [
+      0
+    ],
+    "cached_ids": [
+      0,
+      19
+    ],
+    "dense_points": 0,
+    "rejections": [
+      {
+        "id": 19,
+        "reason": "Need >=50 training depth inliers and >=70% support",
+        "quality": {
+          "training_depth_inliers": 158,
+          "training_depth_inlier_fraction": 0.6694915254237288,
+          "acceptance_basis": "training correspondences only",
+          "training_inverse_depth_rank_correlation": 0.7185902029972565,
+          "rejection": "Need >=50 training depth inliers and >=70% support"
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": 29.262383900000714,
+    "accepted_keyframes": [
+      0,
+      20
+    ],
+    "cached_ids": [
+      0,
+      20
+    ],
+    "dense_points": 2321,
+    "rejections": []
+  },
+  {
+    "timestamp": 29.72684570000274,
+    "accepted_keyframes": [
+      0,
+      20
+    ],
+    "cached_ids": [
+      0,
+      20
+    ],
+    "dense_points": 2321,
+    "rejections": []
+  },
+  {
+    "timestamp": 29.999214500014205,
+    "accepted_keyframes": [
+      0,
+      20
+    ],
+    "cached_ids": [
+      0,
+      20
+    ],
+    "dense_points": 2321,
+    "rejections": []
+  }
+]

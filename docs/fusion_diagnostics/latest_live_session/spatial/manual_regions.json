@@ -1,0 +1,44 @@
+{
+  "note": "Manually chosen diagnostic rectangles on first view after inspection; not held-out evaluation or object segmentation. Arbitrary depths.",
+  "regions": {
+    "foreground_bed": {
+      "bounds_224x168": [
+        20,
+        105,
+        115,
+        165
+      ],
+      "samples": 84,
+      "median_slam_z": 1.7190267236854493,
+      "median_model_prediction": 2.303223133087158,
+      "model_nearness_percentile": 0.875,
+      "slam_nearness_percentile": 0.11973684210526316
+    },
+    "rear_wall_switch": {
+      "bounds_224x168": [
+        112,
+        128,
+        42,
+        70
+      ],
+      "samples": 11,
+      "median_slam_z": 0.6048171020713743,
+      "median_model_prediction": 0.4350878596305847,
+      "model_nearness_percentile": 0.10263157894736842,
+      "slam_nearness_percentile": 0.8868421052631579
+    },
+    "rear_door_upper": {
+      "bounds_224x168": [
+        145,
+        175,
+        55,
+        78
+      ],
+      "samples": 5,
+      "median_slam_z": 0.5282054445973962,
+      "median_model_prediction": 0.5297169089317322,
+      "model_nearness_percentile": 0.26052631578947366,
+      "slam_nearness_percentile": 0.968421052631579
+    }
+  }
+}

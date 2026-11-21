@@ -1,0 +1,26 @@
+{
+  "input_frames": 300,
+  "tracked_frames": 50,
+  "first_pose_sequence": 189,
+  "updates": [
+    {
+      "sequence": 189,
+      "points": 67,
+      "fusion": {
+        "state": "sparse_only",
+        "reason": "Fewer than 70 visible observed landmarks",
+        "dense_history": "not accumulated; local patch replaced on each update"
+      }
+    },
+    {
+      "sequence": 280,
+      "points": 64,
+      "fusion": {
+        "state": "sparse_only",
+        "reason": "Fewer than 70 visible observed landmarks",
+        "dense_history": "not accumulated; local patch replaced on each update"
+      }
+    }
+  ],
+  "note": "Persistent live process tested on saved RGB with exact timestamps; not a live camera performance benchmark"
+}

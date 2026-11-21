@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+project(robot_sim_slam_runner LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+find_package(stella_vslam REQUIRED)
+add_executable(run_mono_dataset run_mono_dataset.cc)
+target_link_libraries(run_mono_dataset PRIVATE stella_vslam::stella_vslam opencv_imgcodecs)
+add_executable(run_live run_live.cc)
+target_link_libraries(run_live PRIVATE stella_vslam::stella_vslam opencv_imgcodecs)

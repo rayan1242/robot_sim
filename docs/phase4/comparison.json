@@ -1,0 +1,29 @@
+{
+  "common_pose_count": 795,
+  "alignment": "Independent Sim(3) position alignment on common timestamps",
+  "systems": {
+    "mini_vo": {
+      "output_poses": 798,
+      "associated_poses": 796,
+      "ate_rmse_m": 0.16776858261306832,
+      "ate_median_m": 0.13170082793696317,
+      "ate_p95_m": 0.287252005037273,
+      "alignment_scale": 0.005592785597776518
+    },
+    "stella_vslam": {
+      "output_poses": 797,
+      "associated_poses": 795,
+      "ate_rmse_m": 0.010583981662700357,
+      "ate_median_m": 0.00785707374253682,
+      "ate_p95_m": 0.019547960289900752,
+      "alignment_scale": 1.3826860096784102
+    }
+  },
+  "stella_tracking": {
+    "input_frames": 798,
+    "pose_available_frames": 796,
+    "note": "Unavailable poses include initialization; this is not purely tracking loss",
+    "tracking_ms_p50": 21.192773,
+    "tracking_ms_p95": 55.246609699999986
+  }
+}

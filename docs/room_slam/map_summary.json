@@ -1,0 +1,8 @@
+{
+  "landmarks": 866,
+  "keyframe_poses": 15,
+  "observation_links": 3219,
+  "coordinate_units": "arbitrary monocular SLAM units",
+  "finite_landmarks": true,
+  "valid_observation_landmark_ids": true
+}
